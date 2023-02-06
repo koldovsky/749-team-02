@@ -1,502 +1,892 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barista School Website Template Demo</title>
+    <link
+      rel="shortcut icon"
+      href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Barista School Website Template Demo</title>
-  <link rel="shortcut icon"
-    href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized"
-    type="image/x-icon" />
-</head>
-
-<body>
-  <!-- Anna Mykhaltsova -->
-  <!-- Artem Holikov :) -->
-  <!--Artem Zinchenko-->
-  <!--Bohdana Halenko-->
-  <!--Valeria Sekret -->
-  <!--Viktoriia Kucher-->
-  <!--Vitaliy Miskevich-->
-  <!--Oksana Zavalna-->
-  <!--Veronica Chudyk-->
-  <!--Hrechukha Arseniy-->
-
-  <header>
-    <!--Valeria Sekret-->
-    <nav class="header__nav">
-      <a href="https://koldovsky.github.io/749-team-02/" class="header__logo-container">
-        <img class="header__logo" width="188" src="img/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo">
-      </a>
-      <div class="header__menu">
-        <a href="#about" class="header__menu-item">About us</a>
-        <a href="#courses" class="header__menu-item">Courses</a>
-        <a href="#pricing" class="header__menu-item">Pricing</a>
-        <a href="#testimonials" class="header__menu-item">Testimonials</a>
-        <a href="#contacts" class="header__menu-item">Contacts</a>
-      </div>
-      <div class="header__socialmedia-icons">
-        <a href="https://www.facebook.com/" class="header__social-link" target="_blank"><svg width="30" class="fb-icon svgIcon_1J7 darkTheme_3jZ" viewBox="0 0 32 32">
-          <path class="logo_2gS"
-            d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z">
-          </path>
-        </svg>
-      </a>
-        <a href="https://www.instagram.com/" class="header__social-link" target="_blank"><svg width="30" class="instagram-icon svgIcon_1J7 darkTheme_3jZ" viewBox="0 0 32 32">
-          <g>
-            <path class="logo_2gS"
-              d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-            </path>
-            <path class="insta-mask-logo-hover_19f"
-              style="fill:url(#si63dac721ae71c2000dd1df4f8339849e030e42c4bc75bfe169cbc706167528221686595297c71-4d12-4203-93a7-a026f06f07a8hover)"
-              d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z">
-            </path>
-          </g>
-        </svg>
-        </a>
-        <a href="https://twitter.com/" class="header__social-link" target="_blank"><svg width="30" class="twitter-icon svgIcon_1J7 darkTheme_3jZ"
-          viewBox="0 0 32 32">
-          <path class="logo_2gS"
-            d="M23.5445333,10.2885333 C23.0796444,10.5863111 22.0122666,11.0190222 21.4858666,11.0190222 L21.4858666,11.0199111 C20.8848,10.392 20.0385777,10 19.1000888,10 C17.2773333,10 15.7992889,11.4780444 15.7992889,13.3000888 C15.7992889,13.5532445 15.8286222,13.8001778 15.8828444,14.0369778 L15.8823111,14.0369778 C13.4097777,13.9720888 10.7056,12.7328 9.07768889,10.6117333 C8.0768,12.3441778 8.94293333,14.2709334 10.0787556,14.9729778 C9.68995555,15.0023111 8.97422222,14.9281778 8.63733333,14.5994666 C8.61475555,15.7493334 9.16764444,17.2728889 11.1836444,17.8256 C10.7953778,18.0344889 10.1080889,17.9745778 9.80924444,17.9301333 C9.91413329,18.9008 11.2734222,20.1697778 12.7598222,20.1697778 C12.2300445,20.7825777 10.2368,21.8940444 8,21.5404445 C9.51911111,22.4647111 11.2896,22.9999999 13.1635555,22.9999999 C18.4888889,22.9999999 22.6245334,18.6840889 22.4019555,13.3598222 C22.4010666,13.3539556 22.4010666,13.3480889 22.4005334,13.3416889 C22.4010666,13.328 22.4019555,13.3143111 22.4019555,13.3000888 C22.4019555,13.2835556 22.4005334,13.2679111 22.4,13.2519111 C22.8847999,12.9203555 23.5352888,12.3338667 24,11.5619556 C23.7304889,11.7104 22.9219555,12.0076445 22.1696,12.0814222 C22.6524444,11.8208 23.3678222,10.9672889 23.5445333,10.2885333">
-          </path>
-        </svg>
-        </a>
-        <a href="https://www.youtube.com/" class="header__social-links" target="_blank"><svg width="30" class="youtube-icon svgIcon_1J7 darkTheme_3jZ"
-          viewBox="0 0 32 32">
-          <path class="logo_2gS"
-            d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z">
-          </path>
-        </svg>
-        </a>
-      </div>
-    </nav>
-    <div class="header__banner">
-      <h1 class="header__title">Coffee Lab</h1>
-      <p class="header__description">COFFEE LAB SCHOOL</p>
-      <div class="header__divider"></div>
-      <p class="header__slogan">Master your coffee skills, whether you're a barista or just a coffee fan.</p>
-    </div>
-  </header>
-  <main>
-
-    <!-- Bohdana Halenko -->
-
-    <section id="courses" class="courses">
-      <p class="courses__block">Courses</p>
-      <h2 class="courses__title">make coffee like a pro</h2>
-      <p class="courses__text">Sign up for one of our professional courses.</p>
-      <div class="courses__items">
-        <article class="courses__item">
-          <picture class="course__item-photo">
-            <img class="course__item-img" src="img/courses/course_one.png" alt="First course">
-          </picture>
-          <h3 class="course__item-name">Latte art course</h3>
-          <div class="course__item-inner">
-            <ul class="course__list-circs">
-              <li class="course__item-circ">
-                <span class="course__item-string">5 days</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">$150</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">5-10</span>
-              </li>
-            </ul>
-          </div>
-          <p class="course__item-text">
-            Turn each coffee you make into a masterpiece with our Latte Art Course. You will learn how to draw beautiful
-            pictures on the foam, from simple leaves and hearts to much more complicated designs.
-          </p>
-          <button class="course__button">Sign Up</button>
-        </article>
-
-        <article class="courses__item">
-          <picture class="course__item-photo">
-            <img class="course__item-img" src="img/courses/course_two.png" alt="Second course">
-          </picture>
-          <h3 class="course__item-name">Barista license course</h3>
-          <div class="course__item-inner">
-            <ul class="course__list-circs">
-              <li class="course__item-circ">
-                <span class="course__item-string">23 days</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">$365</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">5-10</span>
-              </li>
-            </ul>
-          </div>
-          <p class="course__item-text">
-            If you feel that you have to be the one making wholesome coffee, this crash course will give you the basics
-            of working with a coffee machine, barista's responsibilities, and a tour around the kitchen.
-          </p>
-          <button class="course__button">Sign Up</button>
-        </article>
-
-        <article class="courses__item">
-          <picture class="course__item-photo">
-            <img class="course__item-img" src="img/courses/course_three.png" alt="Second course">
-          </picture>
-          <h3 class="course__item-name">Advanced barista course</h3>
-          <div class="course__item-inner">
-            <ul class="course__list-circs">
-              <li class="course__item-circ">
-                <span class="course__item-string">14 days</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">$350</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">3-7</span>
-              </li>
-            </ul>
-          </div>
-          <p class="course__item-text">
-            There is always space for improvement, even if you are an experienced barista. This 2-week course will
-            improve your skills in coffee blending and coffee shop management. It's our best course for professionals.
-          </p>
-          <button class="course__button">Sign Up</button>
-        </article>
-
-        <article class="courses__item">
-          <picture class="course__item-photo">
-            <img class="course__item-img" src="img/courses/course_four.png" alt="Second course">
-          </picture>
-          <h3 class="course__item-name">Coffee like a pro at home</h3>
-          <div class="course__item-inner">
-            <ul class="course__list-circs">
-              <li class="course__item-circ">
-                <span class="course__item-string">5 days</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">$150</span>
-              </li>
-              <li class="course__item-circ">
-                <span class="course__item-string">5-10</span>
-              </li>
-            </ul>
-          </div>
-          <p class="course__item-text">
-            If find yourself asking too much at coffee shops, try making coffee professionally yourself. Become a pro
-            coffee maker at home and then invite your friends for a chat to impress them with your coffee.
-          </p>
-          <button class="course__button">Sign Up</button>
-        </article>
-      </div>
-    </section>
-
-
-    <section id="about" class="about">
-      <h2 class="about__title">About</h2>
-    </section>
+  <body>
+    <!-- Anna Mykhaltsova -->
+    <!-- Artem Holikov :) -->
     <!--Artem Zinchenko-->
-    <section class="team">
-      <h2 id="team" class="team__title">Team</h2>
-    </section>
-
+    <!--Bohdana Halenko-->
+    <!--Valeria Sekret -->
     <!--Viktoriia Kucher-->
-    <section id="recipes" class="recipes">
-      <div class="recipes__banner">
-          <h2 class="recipes__title">Recipes</h2>
-          <p class="recipes__slogan">OUR FAVORITE COFFEE RECIPES</p>
-          <img width="50" src="img/line.png" alt="Line">
-          <p class="recipes__text">Want to try something new? Explore our coffee and dessert recipes.</p>
-          <p class="recipes__undertext">The coffee-making industry is constantl<br> evolving, and baristas come up with new recipes.<br><br>
-              If you are bored with classic lattes and<br> cappuccinos, browse this section.</p>
-          <div class="recipes__latteanddessert">
-              <p class="recipes__coldlatte">COLD LATTE</p>
-              <p class="recipes__undercoldlatte">To make the number one summer<br> coffee, mix espresso, milk, syrup, and<br>
-                   ice cubes. Blend everything until it looks<br> like a one-piece liquid. Pour the mix into<br>
-                    glasses and decorate the glass with<br> whipped cream.</p>
-              <img width="120" src="img/coffeecup.png" alt="coffeecup"><br>
-              <a href="#" class="recipes__opencoldlatte">Open</a>
-                  <div>
-                      <p class="recipes__Cheesedessert">CHEESE DESSERT</p>
-                      <p class="recipes__underCheesedessert">Boil milk, add coffee and sugar. Mix it<br> and cool it down. Put cottage cheese in<br>
-                           a bowl, add cold coffee, and whip it. Malt<br> some peanuts and add them to the<br> cheese-coffee bowl. Then, mix it and<br>
-                            serve on small plates.</p>
-                      <img width="120" src="img/dessert.png" alt="dessert"><br>
-                      <a href="#" class="recipes__opencheesedessert">Open</a><br>
-                      <img width="160" src="img/lineicon.svg" alt="lineicon">
-                  </div>
-              </div>
-          </div>
-    </section>
+    <!--Vitaliy Miskevich-->
+    <!--Oksana Zavalna-->
+    <!--Veronica Chudyk-->
     <!--Hrechukha Arseniy-->
 
-    <section class="Team">
+    <header>
+      <!--Valeria Sekret-->
+      <nav class="header__nav">
+        <a
+          href="https://koldovsky.github.io/749-team-02/"
+          class="header__logo-container"
+        >
+          <img
+            class="header__logo"
+            width="188"
+            src="img/logo-coffee-lab-school.svg"
+            alt="Coffee Lab School Logo"
+          />
+        </a>
+        <div class="header__menu">
+          <a href="#about" class="header__menu-item">About us</a>
+          <a href="#courses" class="header__menu-item">Courses</a>
+          <a href="#pricing" class="header__menu-item">Pricing</a>
+          <a href="#testimonials" class="header__menu-item">Testimonials</a>
+          <a href="#contacts" class="header__menu-item">Contacts</a>
+        </div>
+        <div class="header__socialmedia-icons">
+          <a
+            href="https://www.facebook.com/"
+            class="header__social-link"
+            target="_blank"
+            ><svg
+              width="30"
+              class="fb-icon svgIcon_1J7 darkTheme_3jZ"
+              viewBox="0 0 32 32"
+            >
+              <path
+                class="logo_2gS"
+                d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="header__social-link"
+            target="_blank"
+            ><svg
+              width="30"
+              class="instagram-icon svgIcon_1J7 darkTheme_3jZ"
+              viewBox="0 0 32 32"
+            >
+              <g>
+                <path
+                  class="logo_2gS"
+                  d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                ></path>
+                <path
+                  class="insta-mask-logo-hover_19f"
+                  style="
+                    fill: url(#si63dac721ae71c2000dd1df4f8339849e030e42c4bc75bfe169cbc706167528221686595297c71-4d12-4203-93a7-a026f06f07a8hover);
+                  "
+                  d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com/"
+            class="header__social-link"
+            target="_blank"
+            ><svg
+              width="30"
+              class="twitter-icon svgIcon_1J7 darkTheme_3jZ"
+              viewBox="0 0 32 32"
+            >
+              <path
+                class="logo_2gS"
+                d="M23.5445333,10.2885333 C23.0796444,10.5863111 22.0122666,11.0190222 21.4858666,11.0190222 L21.4858666,11.0199111 C20.8848,10.392 20.0385777,10 19.1000888,10 C17.2773333,10 15.7992889,11.4780444 15.7992889,13.3000888 C15.7992889,13.5532445 15.8286222,13.8001778 15.8828444,14.0369778 L15.8823111,14.0369778 C13.4097777,13.9720888 10.7056,12.7328 9.07768889,10.6117333 C8.0768,12.3441778 8.94293333,14.2709334 10.0787556,14.9729778 C9.68995555,15.0023111 8.97422222,14.9281778 8.63733333,14.5994666 C8.61475555,15.7493334 9.16764444,17.2728889 11.1836444,17.8256 C10.7953778,18.0344889 10.1080889,17.9745778 9.80924444,17.9301333 C9.91413329,18.9008 11.2734222,20.1697778 12.7598222,20.1697778 C12.2300445,20.7825777 10.2368,21.8940444 8,21.5404445 C9.51911111,22.4647111 11.2896,22.9999999 13.1635555,22.9999999 C18.4888889,22.9999999 22.6245334,18.6840889 22.4019555,13.3598222 C22.4010666,13.3539556 22.4010666,13.3480889 22.4005334,13.3416889 C22.4010666,13.328 22.4019555,13.3143111 22.4019555,13.3000888 C22.4019555,13.2835556 22.4005334,13.2679111 22.4,13.2519111 C22.8847999,12.9203555 23.5352888,12.3338667 24,11.5619556 C23.7304889,11.7104 22.9219555,12.0076445 22.1696,12.0814222 C22.6524444,11.8208 23.3678222,10.9672889 23.5445333,10.2885333"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.youtube.com/"
+            class="header__social-links"
+            target="_blank"
+            ><svg
+              width="30"
+              class="youtube-icon svgIcon_1J7 darkTheme_3jZ"
+              viewBox="0 0 32 32"
+            >
+              <path
+                class="logo_2gS"
+                d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </nav>
+      <div class="header__banner">
+        <h1 class="header__title">Coffee Lab</h1>
+        <p class="header__description">COFFEE LAB SCHOOL</p>
+        <div class="header__divider"></div>
+        <p class="header__slogan">
+          Master your coffee skills, whether you're a barista or just a coffee
+          fan.
+        </p>
+      </div>
+    </header>
+    <main>
+      <!-- Bohdana Halenko -->
 
+      <section id="courses" class="courses">
+        <p class="courses__block">Courses</p>
+        <h2 class="courses__title">make coffee like a pro</h2>
+        <p class="courses__text">
+          Sign up for one of our professional courses.
+        </p>
+        <div class="courses__items">
+          <article class="courses__item">
+            <picture class="course__item-photo">
+              <img
+                class="course__item-img"
+                src="img/courses/course_one.png"
+                alt="First course"
+              />
+            </picture>
+            <h3 class="course__item-name">Latte art course</h3>
+            <div class="course__item-inner">
+              <ul class="course__list-circs">
+                <li class="course__item-circ">
+                  <span class="course__item-string">5 days</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">$150</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">5-10</span>
+                </li>
+              </ul>
+            </div>
+            <p class="course__item-text">
+              Turn each coffee you make into a masterpiece with our Latte Art
+              Course. You will learn how to draw beautiful pictures on the foam,
+              from simple leaves and hearts to much more complicated designs.
+            </p>
+            <button class="course__button">Sign Up</button>
+          </article>
+
+          <article class="courses__item">
+            <picture class="course__item-photo">
+              <img
+                class="course__item-img"
+                src="img/courses/course_two.png"
+                alt="Second course"
+              />
+            </picture>
+            <h3 class="course__item-name">Barista license course</h3>
+            <div class="course__item-inner">
+              <ul class="course__list-circs">
+                <li class="course__item-circ">
+                  <span class="course__item-string">23 days</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">$365</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">5-10</span>
+                </li>
+              </ul>
+            </div>
+            <p class="course__item-text">
+              If you feel that you have to be the one making wholesome coffee,
+              this crash course will give you the basics of working with a
+              coffee machine, barista's responsibilities, and a tour around the
+              kitchen.
+            </p>
+            <button class="course__button">Sign Up</button>
+          </article>
+
+          <article class="courses__item">
+            <picture class="course__item-photo">
+              <img
+                class="course__item-img"
+                src="img/courses/course_three.png"
+                alt="Second course"
+              />
+            </picture>
+            <h3 class="course__item-name">Advanced barista course</h3>
+            <div class="course__item-inner">
+              <ul class="course__list-circs">
+                <li class="course__item-circ">
+                  <span class="course__item-string">14 days</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">$350</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">3-7</span>
+                </li>
+              </ul>
+            </div>
+            <p class="course__item-text">
+              There is always space for improvement, even if you are an
+              experienced barista. This 2-week course will improve your skills
+              in coffee blending and coffee shop management. It's our best
+              course for professionals.
+            </p>
+            <button class="course__button">Sign Up</button>
+          </article>
+
+          <article class="courses__item">
+            <picture class="course__item-photo">
+              <img
+                class="course__item-img"
+                src="img/courses/course_four.png"
+                alt="Second course"
+              />
+            </picture>
+            <h3 class="course__item-name">Coffee like a pro at home</h3>
+            <div class="course__item-inner">
+              <ul class="course__list-circs">
+                <li class="course__item-circ">
+                  <span class="course__item-string">5 days</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">$150</span>
+                </li>
+                <li class="course__item-circ">
+                  <span class="course__item-string">5-10</span>
+                </li>
+              </ul>
+            </div>
+            <p class="course__item-text">
+              If find yourself asking too much at coffee shops, try making
+              coffee professionally yourself. Become a pro coffee maker at home
+              and then invite your friends for a chat to impress them with your
+              coffee.
+            </p>
+            <button class="course__button">Sign Up</button>
+          </article>
+        </div>
+      </section>
+
+      <!--Artem Zinchenko-->
+      <section id="about" class="about">
+        <div class="about__mainblock">
+          <img src="./img/two-man.png" alt="Two man with coffee" width="560" />
+          <h2 class="about__title">About</h2>
+          <p class="about__slogan">Master Coffee Making</p>
+          <p class="about__slogan-small">
+            At our school, you'll learn all coffee secrets.
+          </p>
+          <p class="about__text">
+            Coffee Lab School gives a real-life experience of a coffee shop with
+            an internship.
+          </p>
+        </div>
+        <div class="about_secondaryblock">
+          <p class="about__secondary-slogan">
+            PROFESSIONAL COUSES ARE NOW AVAILABLE FOR ALL COFFEE FANS IN NEW
+            YORK
+          </p>
+          <p class="about__secondary-text">
+            Coffee Lab School is an educational playground for people who cast
+            their lot with coffee. If you own a coffee shop, work as a barista,
+            or you’re just a coffee fan, it is a place where you can learn even
+            more about this hot and energizing drink.
+          </p>
+          <div class="about__button">
+            <a href="#learnmore" class="about_learn-button button"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--Artem Zinchenko-->
+      <section id="video" class="video">
+        <div class="">
+          <h2 class="video__title">Video</h2>
+          <p class="video__slogan">HERE'S HOW WE STUDY AND MAKE COFFEE</p>
+          <svg
+            class="video__button"
+            width="40"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            viewBox="0 0 96 96"
+            x="0px"
+            y="0px"
+            style="max-width: 100%"
+            height="100%"
+          >
+            <path
+              d="M38 68.476c-0.328 0-0.652-0.080-0.948-0.244-0.648-0.34-1.052-1.020-1.052-1.756v-36.952c0-0.736 0.404-1.416 1.052-1.752 0.644-0.352 1.432-0.32 2.048 0.088l28 18.476c0.56 0.368 0.9 0.992 0.9 1.664s-0.336 1.304-0.9 1.672l-28 18.476c-0.332 0.22-0.716 0.328-1.1 0.328zM40 33.244v29.524l22.368-14.756-22.368-14.768z"
+              fill="currentColor"
+              style=""
+            ></path>
+            <path
+              d="M48 4c24.256 0 44 19.744 44 44s-19.744 44-44 44c-24.26 0-44-19.744-44-44s19.74-44 44-44zM48 0c-26.508 0-48 21.492-48 48s21.492 48 48 48 48-21.492 48-48-21.492-48-48-48v0z"
+              fill="currentColor"
+              style=""
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="team">
+        <h2 id="team" class="team__title">Team</h2>
+      </section>
+
+      <!--Viktoriia Kucher-->
+      <section id="recipes" class="recipes">
+        <div class="recipes__banner">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__slogan">OUR FAVORITE COFFEE RECIPES</p>
+          <img width="50" src="img/line.png" alt="Line" />
+          <p class="recipes__text">
+            Want to try something new? Explore our coffee and dessert recipes.
+          </p>
+          <p class="recipes__undertext">
+            The coffee-making industry is constantl<br />
+            evolving, and baristas come up with new recipes.<br /><br />
+            If you are bored with classic lattes and<br />
+            cappuccinos, browse this section.
+          </p>
+          <div class="recipes__latteanddessert">
+            <p class="recipes__coldlatte">COLD LATTE</p>
+            <p class="recipes__undercoldlatte">
+              To make the number one summer<br />
+              coffee, mix espresso, milk, syrup, and<br />
+              ice cubes. Blend everything until it looks<br />
+              like a one-piece liquid. Pour the mix into<br />
+              glasses and decorate the glass with<br />
+              whipped cream.
+            </p>
+            <img width="120" src="img/coffeecup.png" alt="coffeecup" /><br />
+            <a href="#" class="recipes__opencoldlatte">Open</a>
+            <div>
+              <p class="recipes__Cheesedessert">CHEESE DESSERT</p>
+              <p class="recipes__underCheesedessert">
+                Boil milk, add coffee and sugar. Mix it<br />
+                and cool it down. Put cottage cheese in<br />
+                a bowl, add cold coffee, and whip it. Malt<br />
+                some peanuts and add them to the<br />
+                cheese-coffee bowl. Then, mix it and<br />
+                serve on small plates.
+              </p>
+              <img width="120" src="img/dessert.png" alt="dessert" /><br />
+              <a href="#" class="recipes__opencheesedessert">Open</a><br />
+              <img width="160" src="img/lineicon.svg" alt="lineicon" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Hrechukha Arseniy-->
+
+      <section class="Team">
         <h2 class="team__title">Team</h2>
         <p class="team__subtitle">Meet our team</p>
-      
-          <p class="team__list">
-          These are our baristas that are going to teach you all the magic:</p>
-       <div class="Team__baristas">
-        <div class="personal">
-          <img width="410" src="img/Barista men.png" alt="barista">
-          <p>Coffee guru</p>
-          <h3>Garry Bee</h3>
-          <p>Garry is a real coffee chef and enthusiast as he makes new recipes, which he will share with you on our course. If you want to make a perfect coffee blend and learn the secrets of delicious coffee, ask Garry.</p>
-          <div class="main__icons" >
-              <img src="img/facebook.icon.barista.svg" alt="Facebook">
-               <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z" style="color:#fff;fill:#fff"></path></svg>
-               <img src="img/instagram.icon.barista.svg" alt="Instagram">
-               <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><g><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-hover_2Yt" style="fill:url(#si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045instagramhover)" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><g><path class="logo_2gS" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-logo-hover_19f" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g></svg>
-               <img src="img/youtube.icon.barista.svg" alt="Youtube">
-               <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z" style="color:#fff;fill:#fff"></path></svg>
-           </div> 
-           <div>
-              <img width="410" src="img/Barista Latte,.png" alt="latte">
+
+        <p class="team__list">
+          These are our baristas that are going to teach you all the magic:
+        </p>
+        <div class="Team__baristas">
+          <div class="personal">
+            <img width="410" src="img/Barista men.png" alt="barista" />
+            <p>Coffee guru</p>
+            <h3>Garry Bee</h3>
+            <p>
+              Garry is a real coffee chef and enthusiast as he makes new
+              recipes, which he will share with you on our course. If you want
+              to make a perfect coffee blend and learn the secrets of delicious
+              coffee, ask Garry.
+            </p>
+            <div class="main__icons">
+              <img src="img/facebook.icon.barista.svg" alt="Facebook" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+              <img src="img/instagram.icon.barista.svg" alt="Instagram" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <g>
+                  <path
+                    class="outer_bDW"
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-hover_2Yt"
+                    style="
+                      fill: url(#si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045instagramhover);
+                    "
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <g>
+                  <path
+                    class="logo_2gS"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-logo-hover_19f"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+              </svg>
+              <img src="img/youtube.icon.barista.svg" alt="Youtube" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems05c25b21c34f446f2a71dba077190659f1675282219045 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <img width="410" src="img/Barista Latte,.png" alt="latte" />
               <p>Latte master</p>
               <h3>Anna Leno</h3>
               <p>
-                Anna is in charge of the aspiring coffee artists. You will learn the different techniques of coffee art, and, through her lessons, you will learn how to make a perfect canvas on the latte foam.</p>
-              <img src="img/facebook.icon,Latte.svg" alt="Facebook">
-              <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z" style="color:#fff;fill:#fff"></path></svg>
-              <img src="img/instagram.icon.Latte.svg" alt="Instagram">
-              <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><g><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-hover_2Yt" style="fill:url(#si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127instagramhover)" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><g><path class="logo_2gS" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-logo-hover_19f" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g></svg>
-         <img src="img/youtube.icon.Latte.svg" alt="Youtube">
-        <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z" style="color:#fff;fill:#fff"></path></svg>
+                Anna is in charge of the aspiring coffee artists. You will learn
+                the different techniques of coffee art, and, through her
+                lessons, you will learn how to make a perfect canvas on the
+                latte foam.
+              </p>
+              <img src="img/facebook.icon,Latte.svg" alt="Facebook" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+              <img src="img/instagram.icon.Latte.svg" alt="Instagram" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <g>
+                  <path
+                    class="outer_bDW"
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-hover_2Yt"
+                    style="
+                      fill: url(#si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127instagramhover);
+                    "
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <g>
+                  <path
+                    class="logo_2gS"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-logo-hover_19f"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+              </svg>
+              <img src="img/youtube.icon.Latte.svg" alt="Youtube" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems15c25b21c34f446f2a71dba077190659f1675282219127 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+            </div>
+            <div>
+              <img width="410" src="img/Barmen photo.png" alt="Barmen" />
+              <p>Owner of a bar</p>
+              <h3>Tomas Hetch</h3>
+              <p>
+                Tomas is a veteran bar owner. If you want your coffee place to
+                be a home to your clients, Tomas will teach you how to structure
+                a coffee business from a big ambition to a famous go-to venue.
+              </p>
+              <img src="img/facebook.icon.bar.svg" alt="Facebook" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+              <img src="img/instagram.icon.bar.svg" alt="Instagram" />
+              <svg
+                width="40"
+                class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <g>
+                  <path
+                    class="outer_bDW"
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-hover_2Yt"
+                    style="
+                      fill: url(#si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185instagramhover);
+                    "
+                    d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <g>
+                  <path
+                    class="logo_2gS"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                  <path
+                    class="insta-mask-logo-hover_19f"
+                    style="fill: #fff; color: #fff"
+                    d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"
+                  ></path>
+                </g>
+              </svg>
+              <img src="img/youtube.icon.bar.svg" alt="Youtube" />
+              <svg
+                width="40"
+                <svg
+                class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  class="outer_bDW"
+                  d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                ></path>
+                <path
+                  d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z"
+                  class="border_2yy"
+                ></path>
+                <path
+                  class="logo_2gS"
+                  d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"
+                  style="color: #fff; fill: #fff"
+                ></path>
+              </svg>
+            </div>
+          </div>
         </div>
-        <div>
-       <img width="410" src="img/Barmen photo.png" alt="Barmen">
-       <p>Owner of a bar</p>
-       <h3>Tomas Hetch</h3>
-       <p>Tomas is a veteran bar owner. If you want your coffee place to be a home to your clients, Tomas will teach you how to structure a coffee business from a big ambition to a famous go-to venue.</p>
-       <img src="img/facebook.icon.bar.svg" alt="Facebook">
-       <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M32 0H0V32H32V0ZM16.9133 25H13.6383V16.0044H12V13.1936H13.6383V10.9374H13.6443C13.7014 8.9864 14.3604 7.129 17.5674 7.0126V7H19.6171V9.8108H17.9447C17.3379 9.8108 16.9133 10.5002 16.9133 11.1568V13.1936H19.8561L19.3702 16.0044H16.9133V25Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M13.6383 25H16.9133V16.0044H19.3702L19.8561 13.1936H16.9133V11.1568C16.9133 10.5002 17.3379 9.8108 17.9447 9.8108H19.6171V7H17.5674V7.0126C14.3604 7.129 13.7014 8.9864 13.6443 10.9374H13.6383V13.1936H12V16.0044H13.6383V25Z" style="color:#fff;fill:#fff"></path></svg>
-        <img src="img/instagram.icon.bar.svg" alt="Instagram">
-        <svg width="40" class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><g><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-hover_2Yt" style="fill:url(#si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185instagramhover)" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><g><path class="logo_2gS" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path><path class="insta-mask-logo-hover_19f" style="fill:#fff;color:#fff" d="M12.7045454,8 C10.1221593,8 8,10.1193185 8,12.7045454 L8,19.2954545 C8,21.8778407 10.1193185,24 12.7045454,24 L19.2954545,24 C21.8778407,24 24,21.8806822 24,19.2954545 L24,12.7045454 C24,10.1221593 21.8806822,8 19.2954545,8 L12.7045454,8 Z M12.7045454,9.45454545 L19.2954545,9.45454545 C21.0937498,9.45454545 22.5454545,10.9062502 22.5454545,12.7045454 L22.5454545,19.2954545 C22.5454545,21.0937498 21.0937498,22.5454545 19.2954545,22.5454545 L12.7045454,22.5454545 C10.9062502,22.5454545 9.45454545,21.0937498 9.45454545,19.2954545 L9.45454545,12.7045454 C9.45454545,10.9062502 10.9062502,9.45454545 12.7045454,9.45454545 Z M20.2954545,11.0454545 C19.9289774,11.0454545 19.6363636,11.3380684 19.6363636,11.7045454 C19.6363636,12.0710225 19.9289774,12.3636364 20.2954545,12.3636364 C20.6619316,12.3636364 20.9545454,12.0710225 20.9545454,11.7045454 C20.9545454,11.3380684 20.6619316,11.0454545 20.2954545,11.0454545 Z M16,11.6363636 C13.599432,11.6363636 11.6363636,13.599432 11.6363636,16 C11.6363636,18.400568 13.599432,20.3636364 16,20.3636364 C18.400568,20.3636364 20.3636364,18.400568 20.3636364,16 C20.3636364,13.599432 18.400568,11.6363636 16,11.6363636 Z M16,13.0909091 C17.6164771,13.0909091 18.9090909,14.3835229 18.9090909,16 C18.9090909,17.6164771 17.6164771,18.9090909 16,18.9090909 C14.3835229,18.9090909 13.0909091,17.6164771 13.0909091,16 C13.0909091,14.3835229 14.3835229,13.0909091 16,13.0909091 Z"></path></g></svg>
-       <img src="img/youtube.icon.bar.svg" alt="Youtube">
-       <svg width="40" <svg class="si63dac721ae71c2000dd1df4bcollectionitems25c25b21c34f446f2a71dba077190659f1675282219185 svgIcon_1J7 filled_Qbi" viewBox="0 0 32 32"><path class="outer_bDW" d="M0,0 L32,0 L32,32 L0,32 L0,0 Z M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z"></path><path d="M1,1 L1,31 L31,31 L31,1 L1,1 Z M0,0 L32,0 L32,32 L0,32 L0,0 Z" class="border_2yy"></path><path class="logo_2gS" d="M24.8319297,11.4874563 C24.6803369,10.1603684 24.3639692,9.77357894 24.1398754,9.59352174 C23.7839619,9.31343284 23.1380446,9.21340113 22.2746246,9.15338207 C20.8905163,9.06001905 18.537532,9 16,9 C13.455877,9 11.1094837,9.05335028 9.72537529,9.15338207 C8.86195533,9.21340113 8.21603808,9.31343284 7.8601245,9.59352174 C7.63603076,9.77357894 7.32625412,10.1603684 7.1680703,11.4874563 C6.94397657,13.4013973 6.94397657,17.7627818 7.1680703,19.6767227 C7.32625412,21.0038107 7.63603076,21.3906002 7.8601245,21.5706573 C8.21603808,21.8507463 8.86195533,21.950778 9.72537529,22.0107971 C11.1094837,22.1041601 13.455877,22.164179 16,22.164179 C18.544123,22.164179 20.8905163,22.1041601 22.2746246,22.0107971 C23.1380446,21.950778 23.7839619,21.8507463 24.1398754,21.5706573 C24.3639692,21.3972689 24.6737458,21.0038107 24.8319297,19.6767227 C25.0560234,17.7627818 25.0560234,13.4013973 24.8319297,11.4874563 Z M13.8249725,18.4429978 L13.8249725,12.7145125 L19.2559502,15.5754208 L13.8249725,18.4429978 Z" style="color:#fff;fill:#fff"></path></svg>
-         </div>
-         </div>
-        </div>
-       </section>
-          
-    
-    <section id="pricing" class="pricing">
-      <h2 class="pricing__title">Pricing</h2>
-      <p class="pricing__blocktitle">Our Pricing Plans</p>
-      <div class="diivider"></div>
-      <p class="pricing__subtitle">Learn more about the price and program of each course we offer.</p>
-      <div class="pricing__carousel carousel">
-        <article class="carousel__slide slide">
-          <h3>LATTE ART COURSE</h3>
-          <div>
-            <span> $150 | 5 days</span>
-          </div>
-          <ul>
-            <li>For all coffe fans;</li>
-            <li>Offline lessons only;</li>
-            <li>All materials included;</li>
-            <li>8 hours of training;</li>
-            <li>Easy to repeat at home.</li>
-          </ul>
-          <a href="#contacts" class="slide__link">Select Course</a>
-        </article>
-        <article class="carousel__slide slide">
-          <h3>BARISTA LICENSE COURSE</h3>
-          <div>
-            <span> $365 | 23 days</span>
-          </div>
-          <ul>
-            <li>For beginners;</li>
-            <li>50+ hours of training;</li>
-            <li>Classic drinks;</li>
-            <li>Internship is included;</li>
-            <li>A certificate is issued.</li>
-          </ul>
-          <a href="#contacts" class="slide__link">Select Course</a>
-        </article>
-        <article class="carousel__slide slide">
-          <h3>ADVANCED BARISTA COURSE</h3>
-          <div>
-            <span> $350 | 14 days</span>
-          </div>
-          <ul>
-            <li>For professionals;</li>
-            <li>Online and offline;</li>
-            <li>Professional equipment;</li>
-            <li>Coffee roasting details;</li>
-            <li>Alternative brewing.</li>
-          </ul>
-          <a href="#contacts" class="slide__link">Select Course</a>
-        </article>
-        <article class="carousel__slide slide">
-          <h3>COFFEE LIKE A PRO AT HOME</h3>
-          <div>
-            <span> $150 | 5 days</span>
-          </div>
-          <ul>
-            <li>For beginners;</li>
-            <li>Classic recipes;</li>
-            <li>Secret tips;</li>
-            <li>Making lush milk foam;</li>
-            <li>10 hours of training.</li>
-          </ul>
-          <a href="#contacts" class="slide__link">Select Course</a>
-        </article>
-      </div>
-    </section>
-    <!-- Anna Mykhaltsova -->
+      </section>
 
-    <!-- Artem Holikov -->
-    <section class="features">
-      <div class="features-wrapper">
-        <div class="features-info">
-          <h2 class="features__title">
-            Featuress
-          </h2>
-          <p class="features__subtitle">
-            Remember this
-          </p>
-          <span class="features__line"></span>
-          <p class="features__block-text">
-            A few things you should know about coffee making.
-          </p>
-          <div class="features__list">
-            <div class="features-block">
-              <img width="17" src="img/equipment-icon.svg" alt="Equipment">
-              <div class="features-block-info">
-                <p class="features-block-info__title">
-                  PROFESSIONAL EQUIPMENT
-                </p>
-                <p class="features-block-info__desc">
-                  Without a good espresso machine, you won't get delicious coffee.
-                </p>
-              </div>
+      <section id="pricing" class="pricing">
+        <h2 class="pricing__title">Pricing</h2>
+        <p class="pricing__blocktitle">Our Pricing Plans</p>
+        <div class="diivider"></div>
+        <p class="pricing__subtitle">
+          Learn more about the price and program of each course we offer.
+        </p>
+        <div class="pricing__carousel carousel">
+          <article class="carousel__slide slide">
+            <h3>LATTE ART COURSE</h3>
+            <div>
+              <span> $150 | 5 days</span>
             </div>
-            <div class="features-block">
-              <img width="17" src="img/baristas-icon.svg" alt="Barista">
-              <div class="features-block-info">
-                <p class="features-block-info__title">
-                  EXPERIENCED BARISTAS
-                </p>
-                <p class="features-block-info__desc">
-                  The ability to make truly delicious coffee comes with experience and hours of training.
-                </p>
-              </div>
+            <ul>
+              <li>For all coffe fans;</li>
+              <li>Offline lessons only;</li>
+              <li>All materials included;</li>
+              <li>8 hours of training;</li>
+              <li>Easy to repeat at home.</li>
+            </ul>
+            <a href="#contacts" class="slide__link">Select Course</a>
+          </article>
+          <article class="carousel__slide slide">
+            <h3>BARISTA LICENSE COURSE</h3>
+            <div>
+              <span> $365 | 23 days</span>
             </div>
-            <div class="features-block">
-              <img width="17" src="img/cup-icon.svg" alt="Cup">
-              <div class="features-block-info">
-                <p class="features-block-info__title">
-                  Classic Drinks are the Basis
-                </p>
-                <p class="features-block-info__desc">
-                  First, you should learn how to make good espresso and then continue with other drinks.
-                </p>
-              </div>
+            <ul>
+              <li>For beginners;</li>
+              <li>50+ hours of training;</li>
+              <li>Classic drinks;</li>
+              <li>Internship is included;</li>
+              <li>A certificate is issued.</li>
+            </ul>
+            <a href="#contacts" class="slide__link">Select Course</a>
+          </article>
+          <article class="carousel__slide slide">
+            <h3>ADVANCED BARISTA COURSE</h3>
+            <div>
+              <span> $350 | 14 days</span>
             </div>
-          </div>
+            <ul>
+              <li>For professionals;</li>
+              <li>Online and offline;</li>
+              <li>Professional equipment;</li>
+              <li>Coffee roasting details;</li>
+              <li>Alternative brewing.</li>
+            </ul>
+            <a href="#contacts" class="slide__link">Select Course</a>
+          </article>
+          <article class="carousel__slide slide">
+            <h3>COFFEE LIKE A PRO AT HOME</h3>
+            <div>
+              <span> $150 | 5 days</span>
+            </div>
+            <ul>
+              <li>For beginners;</li>
+              <li>Classic recipes;</li>
+              <li>Secret tips;</li>
+              <li>Making lush milk foam;</li>
+              <li>10 hours of training.</li>
+            </ul>
+            <a href="#contacts" class="slide__link">Select Course</a>
+          </article>
         </div>
-        <div class="features-photos">
-          <img src="img/baristas-photos.png" alt="Baristas photo">
-        </div>
-      </div>
-      <div class="photos">
-        <img src="img/making-coffee.png" width="393" alt="Making coffee">
-        <img src="img/speaking-photo.png" width="393" alt="Making coffee">
-        <img src="img/coffee-machine.png" width="393" alt="Making coffee">
-        <img src="img/cafe.png" width="393" alt="Making coffee">
-        <img src="img/cups-of-coffee.png" width="393" alt="Making coffee">
-        <img src="img/smelling-coffee.png" width="393" alt="Making coffee">
-      </div>
-    </section>
+      </section>
+      <!-- Anna Mykhaltsova -->
 
-    <!--Anna Mendrukh-->
-    <section id="testimonials" class="feedback">
-      <div class="feedback__header">
-        <h2 class="feedback__title">Testimonials</h2>
-        <div class=" feedback__subtitle">What our students Say</div>
-        <span class="feedback__line"></span>
-        <p class="feedback__description">We are happy with each review you leave.</p>
-      </div>
-      <div class="feedback__body">
-        <div class="feedback__item">
-          <span class="feedback__icon">
-            <img class="feedback__image" src="./img/icon-comma.svg" alt="icon-comma">
-          </span>
-          <h3 class="feedback__item_title">John Jeely</h3>
-          <div class="feedback__item_description">
-            <div class="feedback__description_title">Coffee Enthusiast</div>
-            <p class="feedback__description_content">“I am the kind of person that can sing odes to coffee. At the
-              course, I learned to make the perfect coffee at home, so now I have no reason to leave it at all. I can't
-              even
-              count how much money I’m saving on coffee-to-go every day!”</p>
-            <p class="feedback__description_date">December 15, 2022</p>
+      <!-- Artem Holikov -->
+      <section class="features">
+        <div class="features-wrapper">
+          <div class="features-info">
+            <h2 class="features__title">Featuress</h2>
+            <p class="features__subtitle">Remember this</p>
+            <span class="features__line"></span>
+            <p class="features__block-text">
+              A few things you should know about coffee making.
+            </p>
+            <div class="features__list">
+              <div class="features-block">
+                <img width="17" src="img/equipment-icon.svg" alt="Equipment" />
+                <div class="features-block-info">
+                  <p class="features-block-info__title">
+                    PROFESSIONAL EQUIPMENT
+                  </p>
+                  <p class="features-block-info__desc">
+                    Without a good espresso machine, you won't get delicious
+                    coffee.
+                  </p>
+                </div>
+              </div>
+              <div class="features-block">
+                <img width="17" src="img/baristas-icon.svg" alt="Barista" />
+                <div class="features-block-info">
+                  <p class="features-block-info__title">EXPERIENCED BARISTAS</p>
+                  <p class="features-block-info__desc">
+                    The ability to make truly delicious coffee comes with
+                    experience and hours of training.
+                  </p>
+                </div>
+              </div>
+              <div class="features-block">
+                <img width="17" src="img/cup-icon.svg" alt="Cup" />
+                <div class="features-block-info">
+                  <p class="features-block-info__title">
+                    Classic Drinks are the Basis
+                  </p>
+                  <p class="features-block-info__desc">
+                    First, you should learn how to make good espresso and then
+                    continue with other drinks.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="features-photos">
+            <img src="img/baristas-photos.png" alt="Baristas photo" />
           </div>
         </div>
-        <div class="feedback__item">
-          <span class="feedback__icon">
-            <img class="feedback__image" src="./img/icon-comma.svg" alt="icon-comma">
-          </span>
-          <h3 class="feedback__item_title">Mary Woolen</h3>
-          <div class="feedback__item_description">
-            <div class="feedback__description_title">Barista</div>
-            <p class="feedback__description_content">“I was so happy to study at CoffeeLab. They know how to work with
-              poor learners and find the best approach to them. Sure, I still have many tricks to learn, but this
-              school gave me basic skills that I use every day at work.”</p>
-            <p class="feedback__description_date">March 25, 2022</p>
-          </div>
+        <div class="photos">
+          <img src="img/making-coffee.png" width="393" alt="Making coffee" />
+          <img src="img/speaking-photo.png" width="393" alt="Making coffee" />
+          <img src="img/coffee-machine.png" width="393" alt="Making coffee" />
+          <img src="img/cafe.png" width="393" alt="Making coffee" />
+          <img src="img/cups-of-coffee.png" width="393" alt="Making coffee" />
+          <img src="img/smelling-coffee.png" width="393" alt="Making coffee" />
         </div>
-        <div class="feedback__item">
-          <span class="feedback__icon">
-            <img class="feedback__image" src="./img/icon-comma.svg" alt="icon-comma">
-          </span>
-          <h3 class="feedback__item_title">Lilly Blues</h3>
-          <div class="feedback__item_description">
-            <div class="feedback__description_title">Bar Owner</div>
-            <p class="feedback__description_content">“It changed the way I'm doing my business. The courses gave me the
-              management basics for my own coffee bar and the community gave the best baristas. Running my coffee
-              place is now such a pleasure.”</p>
-            <p class="feedback__description_date">November 12, 2022</p>
-          </div>
+      </section>
+
+      <!--Anna Mendrukh-->
+      <section id="testimonials" class="feedback">
+        <div class="feedback__header">
+          <h2 class="feedback__title">Testimonials</h2>
+          <div class="feedback__subtitle">What our students Say</div>
+          <span class="feedback__line"></span>
+          <p class="feedback__description">
+            We are happy with each review you leave.
+          </p>
         </div>
-      </div>
-    </section>
-    <section id="faq" class="faq">
-      <div class="faq_block-left">
-        <div class="faq__header">
-          <h2 class=" faq__title">
-            FAQ
-          </h2>
-          <h3 class=" faq__subtitle">
-            ABOUT OUR COURSES
-          </h3>
-          <img width="40" src="img/line.png" alt="Line">
-          <div class="faq__block">
-            <p class="faq__block-text-strong">
-              <strong> We run our courses approximately once in 2-3 months, so be sure to apply in
-                advance.</strong>
-            </p>
-            <p class="faq__block-text-none">
-            </p>
-            <p class="faq__block-text">
-              Our groups consist of 5-10 people on average. Most courses are held offline or online + offline. If
-              you have any questions, please read this section or contact us directly.
-            </p>
-            <p class="faq__block-text-none"></p>
-            <div class="faq__block-button">
-              <button name="button">Select a course</button>
-              <button name="button">Contact Us</button>
+        <div class="feedback__body">
+          <div class="feedback__item">
+            <span class="feedback__icon">
+              <img
+                class="feedback__image"
+                src="./img/icon-comma.svg"
+                alt="icon-comma"
+              />
+            </span>
+            <h3 class="feedback__item_title">John Jeely</h3>
+            <div class="feedback__item_description">
+              <div class="feedback__description_title">Coffee Enthusiast</div>
+              <p class="feedback__description_content">
+                “I am the kind of person that can sing odes to coffee. At the
+                course, I learned to make the perfect coffee at home, so now I
+                have no reason to leave it at all. I can't even count how much
+                money I’m saving on coffee-to-go every day!”
+              </p>
+              <p class="feedback__description_date">December 15, 2022</p>
+            </div>
+          </div>
+          <div class="feedback__item">
+            <span class="feedback__icon">
+              <img
+                class="feedback__image"
+                src="./img/icon-comma.svg"
+                alt="icon-comma"
+              />
+            </span>
+            <h3 class="feedback__item_title">Mary Woolen</h3>
+            <div class="feedback__item_description">
+              <div class="feedback__description_title">Barista</div>
+              <p class="feedback__description_content">
+                “I was so happy to study at CoffeeLab. They know how to work
+                with poor learners and find the best approach to them. Sure, I
+                still have many tricks to learn, but this school gave me basic
+                skills that I use every day at work.”
+              </p>
+              <p class="feedback__description_date">March 25, 2022</p>
+            </div>
+          </div>
+          <div class="feedback__item">
+            <span class="feedback__icon">
+              <img
+                class="feedback__image"
+                src="./img/icon-comma.svg"
+                alt="icon-comma"
+              />
+            </span>
+            <h3 class="feedback__item_title">Lilly Blues</h3>
+            <div class="feedback__item_description">
+              <div class="feedback__description_title">Bar Owner</div>
+              <p class="feedback__description_content">
+                “It changed the way I'm doing my business. The courses gave me
+                the management basics for my own coffee bar and the community
+                gave the best baristas. Running my coffee place is now such a
+                pleasure.”
+              </p>
+              <p class="feedback__description_date">November 12, 2022</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section id="faq" class="faq">
+        <div class="faq_block-left">
+          <div class="faq__header">
+            <h2 class="faq__title">FAQ</h2>
+            <h3 class="faq__subtitle">ABOUT OUR COURSES</h3>
+            <img width="40" src="img/line.png" alt="Line" />
+            <div class="faq__block">
+              <p class="faq__block-text-strong">
+                <strong>
+                  We run our courses approximately once in 2-3 months, so be
+                  sure to apply in advance.</strong
+                >
+              </p>
+              <p class="faq__block-text-none"></p>
+              <p class="faq__block-text">
+                Our groups consist of 5-10 people on average. Most courses are
+                held offline or online + offline. If you have any questions,
+                please read this section or contact us directly.
+              </p>
+              <p class="faq__block-text-none"></p>
+              <div class="faq__block-button">
+                <button name="button">Select a course</button>
+                <button name="button">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="faq__block-right">
           <div class="faq__block-right-accord">
             <h3 class="faq__block-right-accord-title">
               WHO ARE THIS COURSES FOR?
             </h3>
             <p class="faq__block-right-accord-text">
-              We have different courses designed for beginners and professionals. It all depends on your skills
-              and needs.
+              We have different courses designed for beginners and
+              professionals. It all depends on your skills and needs.
             </p>
           </div>
           <div class="faq__block-right-accord">
@@ -504,8 +894,9 @@
               DO I NEED TO BUY AN ESPRESSO MACHINE TO STUDY?
             </h3>
             <p class="faq__block-right-accord-text">
-              A good coffee machine is a must for everyone who wants to make delicious coffee. Still, during the
-              courses, you'll use our equipment, so you don't need to buy anything to study.
+              A good coffee machine is a must for everyone who wants to make
+              delicious coffee. Still, during the courses, you'll use our
+              equipment, so you don't need to buy anything to study.
             </p>
           </div>
           <div class="faq__block-right-accord">
@@ -513,7 +904,8 @@
               DO YOU TEACH NEW WAYS OF BREWING COFFEE?
             </h3>
             <p class="faq__block-right-accord-text">
-              Yes, you can master new techniques of brewing on our Advanced Barista Course.
+              Yes, you can master new techniques of brewing on our Advanced
+              Barista Course.
             </p>
           </div>
           <div class="faq__block-right-accord">
@@ -521,101 +913,132 @@
               WHAT IF I DECIDE TO QUITE IN THE MIDDLE OF THE COURSE?
             </h3>
             <p class="faq__block-right-accord-text">
-              If your plans change before the start of the course, you get your money back. But, in case of any
-              changes when the course has already started, you can only switch to another course.
+              If your plans change before the start of the course, you get your
+              money back. But, in case of any changes when the course has
+              already started, you can only switch to another course.
             </p>
           </div>
         </div>
-    </section>
-    <!--Oksana Zavalna-->
+      </section>
+      <!--Oksana Zavalna-->
 
-    <section id="blog" class="blog">
-      <div class="blog_wrapper">
-        <div class="blog_info">
-          <div class="blog_all_about_header">
-            <h2 class="blog_title">blog</h2>
-            <p class="blog_subtitle">READ OUR LATEST NEWS AND ARTICLES</p>
-            <span class="blog_line"></span>
-            <p class="blog_subsubtitle">
-              Dive into the modern coffee culture with us!
-            </p>
-            <div class="blog_block">
-              <div class="blog_block_style">
-                <div class="blog_block_information">
-                  <img class="blog_img_block" src="img/blog_img.png" alt="necessary things for coffee"><br>
-                  <span class="blog_date_block">Cases | August 22, 2022</span><br>
-                  <a href="#" class="blog_block_link">How pour over changed the concept of a coffee bar</a>
-                  <p class="blog_block_text">
-                    Pour over, hario, and v60 are the names for the same way of making coffee.
-                    The method became popular only in 2010, after the publication of an article about it in The New York
-                    Times,
-                    and was invented almost a hundred years before that.
-
-                         Making pour-over coffee is a real ritual, which is called the "coffee ceremony",
-                         however, this ritual can be mastered quite easily, and its result will be unmistakably tasty.
-                         So, let's see how to master this brewing method and why it is so popular nowadays in the USA and
-                         around the world.
-                       </p>
-                      </div>
-                          <div class="blog_list">
-                           <ol class="blog_list_ol">
-                           <li class="blog_list_li">
-                            <div class="blog_list_img">
-                              <img src="img/blog_img_list_first.png" alt="man make coffee">
-                            </div>
-                            <div class="blog_list_info">
-                              <span class="blog_span_list">Coffee trends | May 22, 2022</span><br>
-                              <a href="#" class="blog_list_link">What's up with flat white?</a>
-                              <p class="blog_link_text">
-                                Remember the time when flat white suddenly 
-                                appeared in all trendy coffee shops
-                                 and became the most popular drink? 
-                                But who orders it now? Almost nobody...
-                              </p>
-                            </div>
-                           </li>
-                           <li class="blog_list_li">
-                            <div class="blog_list_img">
-                              <img src="img/blog_img_list_second.png" alt="woman make coffee">
-                            </div>
-                            <div class="blog_list_info">
-                              <span class="blog_span_list">Coffee trends | October 03, 2022</span><br>
-                              <a href="#" class="blog_list_link">TOP WINTER COFFEE DRINKS </a>
-                              <p class="blog_link_text">
-                                A few more weeks, and it will get really cold outside.
-                                 It's time to put together a winter menu and prepare 
-                                 some new hot drinks for your customers with our top recipes...
-                                </p>
-                            </div>
-                           </li>
-                           <li class="blog_list_li">
-                            <div class="blog_list_img">
-                              <img src="img/blog_img_list_third.png" alt="someone is making coffee">
-                            </div>
-                            <div class="blog_list_info">
-                              <span class="blog_span_list">Infographics | October 12, 2022</span><br>
-                              <a href="#" class="blog_list_link">how to please any taste</a>
-                              <p class="blog_link_text">
-                                Coffee lovers have their own preferences. 
-                                Someone likes strong coffee while someone adds a lot of milk. 
-                                Someone prefers Arabica, and others love Robusta most of all...
-                              </p>
-                            </div>
-                           </li>
-                           </ol>
-                          </div>
-                    </div>
+      <section id="blog" class="blog">
+        <div class="blog_wrapper">
+          <div class="blog_info">
+            <div class="blog_all_about_header">
+              <h2 class="blog_title">blog</h2>
+              <p class="blog_subtitle">READ OUR LATEST NEWS AND ARTICLES</p>
+              <span class="blog_line"></span>
+              <p class="blog_subsubtitle">
+                Dive into the modern coffee culture with us!
+              </p>
+              <div class="blog_block">
+                <div class="blog_block_style">
+                  <div class="blog_block_information">
+                    <img
+                      class="blog_img_block"
+                      src="img/blog_img.png"
+                      alt="necessary things for coffee"
+                    /><br />
+                    <span class="blog_date_block">Cases | August 22, 2022</span
+                    ><br />
+                    <a href="#" class="blog_block_link"
+                      >How pour over changed the concept of a coffee bar</a
+                    >
+                    <p class="blog_block_text">
+                      Pour over, hario, and v60 are the names for the same way
+                      of making coffee. The method became popular only in 2010,
+                      after the publication of an article about it in The New
+                      York Times, and was invented almost a hundred years before
+                      that. Making pour-over coffee is a real ritual, which is
+                      called the "coffee ceremony", however, this ritual can be
+                      mastered quite easily, and its result will be unmistakably
+                      tasty. So, let's see how to master this brewing method and
+                      why it is so popular nowadays in the USA and around the
+                      world.
+                    </p>
                   </div>
-        </div>         
-      </div>
-     </div>
-      <!--Vitaliy Miskevich-->
-    </section>
-  </main>
-  <footer>
-    <!--Veronica Chudyk-->
-    <h2 id="contacts" class="contacts">CONTACTS</h2>
-  </footer>
-</body>
-
+                  <div class="blog_list">
+                    <ol class="blog_list_ol">
+                      <li class="blog_list_li">
+                        <div class="blog_list_img">
+                          <img
+                            src="img/blog_img_list_first.png"
+                            alt="man make coffee"
+                          />
+                        </div>
+                        <div class="blog_list_info">
+                          <span class="blog_span_list"
+                            >Coffee trends | May 22, 2022</span
+                          ><br />
+                          <a href="#" class="blog_list_link"
+                            >What's up with flat white?</a
+                          >
+                          <p class="blog_link_text">
+                            Remember the time when flat white suddenly appeared
+                            in all trendy coffee shops and became the most
+                            popular drink? But who orders it now? Almost
+                            nobody...
+                          </p>
+                        </div>
+                      </li>
+                      <li class="blog_list_li">
+                        <div class="blog_list_img">
+                          <img
+                            src="img/blog_img_list_second.png"
+                            alt="woman make coffee"
+                          />
+                        </div>
+                        <div class="blog_list_info">
+                          <span class="blog_span_list"
+                            >Coffee trends | October 03, 2022</span
+                          ><br />
+                          <a href="#" class="blog_list_link"
+                            >TOP WINTER COFFEE DRINKS
+                          </a>
+                          <p class="blog_link_text">
+                            A few more weeks, and it will get really cold
+                            outside. It's time to put together a winter menu and
+                            prepare some new hot drinks for your customers with
+                            our top recipes...
+                          </p>
+                        </div>
+                      </li>
+                      <li class="blog_list_li">
+                        <div class="blog_list_img">
+                          <img
+                            src="img/blog_img_list_third.png"
+                            alt="someone is making coffee"
+                          />
+                        </div>
+                        <div class="blog_list_info">
+                          <span class="blog_span_list"
+                            >Infographics | October 12, 2022</span
+                          ><br />
+                          <a href="#" class="blog_list_link"
+                            >how to please any taste</a
+                          >
+                          <p class="blog_link_text">
+                            Coffee lovers have their own preferences. Someone
+                            likes strong coffee while someone adds a lot of
+                            milk. Someone prefers Arabica, and others love
+                            Robusta most of all...
+                          </p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Vitaliy Miskevich-->
+      </section>
+    </main>
+    <footer>
+      <!--Veronica Chudyk-->
+      <h2 id="contacts" class="contacts">CONTACTS</h2>
+    </footer>
+  </body>
 </html>
