@@ -8,7 +8,9 @@
 
 :root {
     --title-color: #c7a17a;
-    /* Обговорити про назви змінних */
+    --subtitle-color-light: #fff;
+    --subtitle-color-dark: #27292b;
+    --description-color: rgb(130,130,130);
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
