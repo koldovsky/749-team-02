@@ -25,3 +25,8 @@ img {
     margin: 0;
 }
 
+.line {
+    background-color: #c7a17a;
+    height: 3px;
+    /* width: change for your block */
+}
