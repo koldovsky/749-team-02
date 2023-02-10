@@ -25,6 +25,12 @@ img {
     margin: 0;
 }
 
+h2 {
+    font-size: 26px;
+    font-family: Satisfy;
+    color: var(--title-color);
+}
+
 .line {
     background-color: #c7a17a;
     height: 3px;
