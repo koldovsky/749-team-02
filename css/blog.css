@@ -1,1 +1,29 @@
-.blog_block
+.blog {
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+    
+    .blog_title {
+        color: var(--title-color);
+        text-align: center ;
+        font-family: 'roboto';
+    }
+    .blog_subtitle {
+        text-align: center;
+        font-size: 38px;
+        margin-top: 20px;
+        font-weight: 900;
+    }
+    .blog_line{
+        border: var(--title-color) solid 3px;
+        display: flex;
+        width: 60px;
+        margin: 15px auto 15px auto;
+    }
+    .blog_subsubtitle{
+        text-align: center;
+        font-size: 19px;
+        margin-top: 20px;
+        color: #27292BD6;
+    
+    }
