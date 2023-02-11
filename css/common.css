@@ -12,6 +12,7 @@
     --subtitle-color-dark: #27292b;
     --description-color: rgb(130,130,130);
     font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     scroll-behavior: smooth;
 }
 
@@ -25,8 +26,16 @@ img {
     margin: 0;
 }
 
+h2 {
+    font-size: 26px;
+    font-family: Satisfy;
+    color: var(--title-color);
+}
+
 .line {
+    display: block;
     background-color: #c7a17a;
     height: 3px;
     /* width: change for your block */
 }
+
