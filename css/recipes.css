@@ -1,0 +1,60 @@
+.recipes__slogan {
+    color: var(--subtitle-color-dark);
+    font-family: Bebas Neue, cursive;
+    font-size: 38px;
+    line-height: 41.8px;
+}
+.recipes__divider line {
+    width: 51.35px;
+}
+.recipes__text {
+    color: rgb(91, 91, 91);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28.5px;
+}
+.recipes__undertext {
+    color: var(--description-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+}
+.recipes__coldlatte {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+.recipes__undercoldlatte {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+    text-align: center;
+}
+.recipes__opencoldlatte {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.recipes__Cheesedessert {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+}
+.recipes__underCheesedessert {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+    text-align: center;
+}
+.recipes__opencheesedessert {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+}
