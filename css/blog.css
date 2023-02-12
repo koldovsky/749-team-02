@@ -7,7 +7,6 @@
     .blog_title {
         color: var(--title-color);
         text-align: center ;
-        font-family: 'roboto';
         padding-top: 90px;
     }
     .blog_subtitle {
