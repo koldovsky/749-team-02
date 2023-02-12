@@ -1,9 +1,8 @@
-.blog {
+    .blog{
     padding-left: 24px;
     padding-right: 24px;
     background-color: #f2f0ec;
-}
-    
+    }  
     .blog_title {
         color: var(--title-color);
         text-align: center ;
