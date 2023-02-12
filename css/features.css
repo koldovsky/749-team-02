@@ -123,7 +123,7 @@
 }
 
 @media (min-width: 770px) {
-    .features-wrapper{
+    .features-wrapper {
         flex-direction: row;
         justify-content: space-between;
     }
