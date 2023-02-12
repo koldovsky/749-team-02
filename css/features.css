@@ -1,34 +1,155 @@
-.features-wrapper{
+/* Питання:
+
+1. Можна подивитись, як зроблені іконки і чи добре? 
+Чи варто якось по-іншому?
+2. Чи варто на різних медіазапросах задавати різну ширину контейнера?
+3. Для прикладу: маємо паддінг між секціями 100px. 
+   Що краще? Задати двом секціям падінг по 50px чи одній задати 100px? 
+4. Є ж задані певні розміри медіазапросів згідно Bootstrap. Чи варто їх брати звідти? Чи все таки краще задавати свої медіазапроси? 
+Якщо так, то як найкраще самому їх задавати? У відповідності з тим, де починаються якісь зміни чи як?
+5. Чи буде погано, якщо в різних файлах CSS для деяких елементів будуть задані однакові стилі, але вони не будуть винесені в "common.css"?
+6. Чи варто задавати lineheight або letterspacing в форматі дрібних (52.8px) чи краще округлювати (53px або 52px)?
+   */
+
+
+.features {
+    padding: 0 24px;
+}
+
+.features-wrapper {
     display: flex;
 }
 
-.features__title{
+.features__title {
     font-weight: 400;
+    line-height: 26px;
 }
 
-.features__block-text{
+.features__block-text {
     font-weight: 500;
     font-size: 19px;
     color: rgb(91,91,91);
+    line-height: 29.5px;
 }
 
-.features__subtitle{
+.features__subtitle {
     color: var(--subtitle-color-dark);
     font-size: 38px;
     font-family: Bebas Neue, cursive;
+    margin-top: 20px;
+    line-height: 41px;
 }
 
-@media (min-width: 320px){
+.features-block {
+    display: flex;
+    column-gap: 15px;
+    padding: 15px 0;
+}
+
+.features-block-info__title {
+    color: #27292b;
+    font-size: 24px;
+    font-family: Bebas Neue, cursive;
+    letter-spacing: 0.48px;
+}
+
+.features-block-info__desc{
+    color: var(--description-color);
+    line-height: 25.5px;
+}
+
+.features__list{
+    margin: 25px 0 50px;
+    
+}
+
+.features-photos img {
+    background: url(../img/features/bg-photo-barista.webp) center center / contain no-repeat;
+}
+
+
+
+@media (min-width: 320px) {
     .features-wrapper{
         flex-direction: column;
     }
 
-    .features__line span{
+    .features__line span {
         max-width: 10%;
     }
 
-    .features__line{
+    .features__line {
         padding: 15px 0;
+    }
+
+    .features__list img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .features__list-photo {
+        background-color: #f2f0ec;
+        border-radius: 100%;
+        max-width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .features-block-info__title {
+        font-size: 24px;
+        line-height: 29.5px;
+        margin-right: 5px;
+    }
+
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 60px 0;
+    }
+
+    .features-photos{
+        padding-bottom: 60px;
+    }
+
+}
+
+@media(min-width: 480px) {
+    .photos {
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+@media (min-width: 770px) {
+    .features-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .features__subtitle {
+        font-size: 48px;
+        line-height: 52.8px;
+    }
+
+    .features__list-photo {
+        background-color: #f2f0ec;
+        border-radius: 100%;
+        max-width: 70px;
+        height: 70px;
+        padding: 15px;
+    }
+
+    .features__list img {
+        width: 27px;
+        height: 40px;
+    }
+
+    .features-block-info__title {
+        font-size: 26px;
+        line-height: 32px;
+        margin-right: 5px;
     }
 
 }

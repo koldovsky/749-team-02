@@ -1,8 +1,8 @@
 .blog {
     padding-left: 24px;
     padding-right: 24px;
-        background-color: #f2f0ec;
-    }
+    background-color: #f2f0ec;
+}
     
     .blog_title {
         color: var(--title-color);
@@ -27,7 +27,7 @@
         font-size: 19px;
         margin-top: 20px;
         margin-bottom: 40px;
-       color: var(--description-color );
+        color: var(--description-color );
     }
     .blog_block_style {
         padding-right: 15px;
