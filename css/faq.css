@@ -1,0 +1,52 @@
+.faq {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #f2f0ec;
+    position: relative;
+}
+.faq__block-section-container {
+    position: static;
+}
+.faq__block-container {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.faq__block-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.faq__block-left, .faq__block-right {
+    flex: 1 0 0%;
+}
+.faq__block-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+.faq__block-background-img {
+    background: url("../img/coffee-break-faq-bg.png") 51.25% 32.81% / cover no-repeat fixed, rgb(46, 48, 50);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.faq__block-background-overlay {
+    background: rgba(34, 36, 38, 0.9);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.line {
+    display: block;
+    max-width: 5%;
+    border: 2px solid #c7a17a;
+    margin: 0 auto;
+}
