@@ -1,3 +1,12 @@
+/* Питання:
+
+1. Можна подивитись, як зроблені іконки і чи добре? 
+Чи варто якось по-іншому?
+2. Чи варто на різних медіазапросах задавати різну ширину контейнера?
+3. Для прикладу: маємо паддінг між секціями 100px. 
+   Що краще? Задати двом секціям падінг по 50px чи одній задати 100px? */
+
+
 .features {
     padding: 0 24px;
 }
@@ -85,6 +94,18 @@
         font-size: 24px;
         line-height: 29.5px;
         margin-right: 5px;
+    }
+
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 60px 0;
+    }
+
+    .features-photos{
+        padding-bottom: 60px;
     }
 
 }
