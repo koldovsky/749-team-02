@@ -1,5 +1,5 @@
 .features {
-    padding: 0 15px;
+    padding: 0 24px;
 }
 
 .features-wrapper {
@@ -39,6 +39,7 @@
     color: #27292b;
     font-size: 24px;
     font-family: Bebas Neue, cursive;
+    letter-spacing: 0.48px;
 }
 
 .features-block-info__desc{
@@ -47,7 +48,8 @@
 }
 
 .features__list{
-    margin-top: 25px;
+    margin: 25px 0 50px;
+    
 }
 
 
@@ -82,6 +84,7 @@
     .features-block-info__title {
         font-size: 24px;
         line-height: 29.5px;
+        margin-right: 5px;
     }
 
 }
