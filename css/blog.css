@@ -50,7 +50,7 @@
         text-decoration: none;
     }
     .blog_block_text {
-        font-size: 17px;
+        font-size:17px;
         color: #828282;
         text-align: left;
         line-height: 150%;
@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    padding-top: 15px;
+    padding-top: 15 px;
     padding-bottom: 15px;
     }
     .blog_list_img {
@@ -81,7 +81,6 @@
     text-decoration: none;
     }
     .blog_link_text {
-        rgb(130,130,130);
+        color: rgb(130,130,130) ; 
         font-size: 15px;
-        opacity: 50%;
     }
