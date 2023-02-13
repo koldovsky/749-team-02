@@ -6,8 +6,7 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
-.contact__form{
+.footer__contact__form{
     display:flex;
     flex-direction:column;
     width:312px;
