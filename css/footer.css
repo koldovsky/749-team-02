@@ -20,6 +20,9 @@ footer{
 }
 .footer__contacts{
     color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size:38px;
 
 }
 .footer__phone__num,a{
