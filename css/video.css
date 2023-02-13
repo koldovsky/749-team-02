@@ -1,0 +1,24 @@
+.video__block {
+  background: linear-gradient(rgba(56, 54, 54, 0.85), rgba(56, 54, 54, 0.85)),
+    url(img/about&video/video-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+.video__slogan {
+  color: var(--subtitle-color-light);
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+  line-height: 52.8px;
+  letter-spacing: 0.96px;
+  text-align: center;
+  padding: 20px;
+}
+.video__push-button {
+  width: 70px;
+}
