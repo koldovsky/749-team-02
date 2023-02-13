@@ -1,17 +1,8 @@
 .testimonials {
     position: relative;
     width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     margin: 0 auto;
     padding: 60px 24px 90px 24px;
-}
-
-.testimonials h1,
-.testimonials h2,
-.testimonials h3 {
-    font-weight: unset;
 }
 
 .testimonials__header {
@@ -22,6 +13,7 @@
 .testimonials__title {
     font-family: "Satisfy", cursive;
     font-size: 26px;
+    font-weight: 400;
     color: var(--title-color);
 }
 
@@ -78,6 +70,7 @@
 
 .testimonials__item_title {
     font-family: "Bebas Neue", cursive;
+    font-weight: 400;
     font-size: 24px;
 }
 
