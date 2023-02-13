@@ -61,6 +61,7 @@
     align-items: center;
     justify-content: center;
     line-height: 26px;
+    font-weight: 100;
 }
 
 .header__description{
@@ -70,14 +71,21 @@
     text-align: center;
     letter-spacing: 1.24px;
     line-height: 62px;
-    margin: 20px;
+    margin-top: 19px;
+    margin-bottom: 3px;
 }
 
-.line{
-    display: block;
-    height: 3px;
-    width: 4%;
-    margin: 15px 0;
+.header__divider{
+    margin: 14px;px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-liner{
+        background-color: #c7a17a;
+        height: 3px;
+        width: 10.88px;
 }
 
 .header__slogan{
