@@ -1,5 +1,5 @@
 .video__block {
-  background: linear-gradient(rgba(56, 54, 54, 0.85), rgba(56, 54, 54, 0.85)),
+  background: linear-gradient(rgba(34, 36, 38, 0.9), rgba(34, 36, 38, 0.9)),
     url(../img/about&video/video-background.jpg);
   background-size: cover;
   background-position: center;
