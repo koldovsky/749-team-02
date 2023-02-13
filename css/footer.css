@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+footer{
+    background-color:#27292b;
+}
+.form__map{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form{
+    display:flex;
+    flex-direction:column;
+    width:312px;
+    background-color:#2e3032;
+}
+.footer__form__span{
+    font-family:'Zeyada', cursive;
+    font-size:26px;
+    color:#c7a166;
+
+}
+.footer__contacts{
+    color:#fff;
+
+}
+.footer__phone__num,a{
+    color:#cdcccd;;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+i{
+    color:#c7a166;
+    font-size:17px;
+    
+}
+input{
+    background-color:#303234;
+    width:242px;
+    line-height:20px;
+    margin:20px;
+    padding:15px 26px 15px 26px;
+    color:#fff; 
+}
+.submit__btn{
+    width:242px;
+    line-height: 20px;
+    background-color:#c7a17a;;
+    color:#fff;
+    margin:26px;
+    padding:15px 26px 15px 26px;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    font-weight:500;
+}
+button:hover{
+    background-color:#513b25;
+}
