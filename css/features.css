@@ -1,19 +1,5 @@
-/* Питання:
-
-1. Можна подивитись, як зроблені іконки і чи добре? 
-Чи варто якось по-іншому?
-2. Чи варто на різних медіазапросах задавати різну ширину контейнера?
-3. Для прикладу: маємо паддінг між секціями 100px. 
-   Що краще? Задати двом секціям падінг по 50px чи одній задати 100px? 
-4. Є ж задані певні розміри медіазапросів згідно Bootstrap. Чи варто їх брати звідти? Чи все таки краще задавати свої медіазапроси? 
-Якщо так, то як найкраще самому їх задавати? У відповідності з тим, де починаються якісь зміни чи як?
-5. Чи буде погано, якщо в різних файлах CSS для деяких елементів будуть задані однакові стилі, але вони не будуть винесені в "common.css"?
-6. Чи варто задавати lineheight або letterspacing в форматі дрібних (52.8px) чи краще округлювати (53px або 52px)?
-   */
-
-
 .features {
-    padding: 0 24px;
+    padding: 90px 24px 0;
 }
 
 .features-wrapper {
@@ -67,52 +53,47 @@
     background: url(../img/features/bg-photo-barista.webp) center center / contain no-repeat;
 }
 
+.features-wrapper{
+    flex-direction: column;
+}
 
+.features__line span {
+    max-width: 10%;
+}
 
-@media (min-width: 320px) {
-    .features-wrapper{
-        flex-direction: column;
-    }
+.features__line {
+    padding: 15px 0;
+}
 
-    .features__line span {
-        max-width: 10%;
-    }
+.features__list img {
+    width: 26px;
+    height: 26px;
+}
 
-    .features__line {
-        padding: 15px 0;
-    }
+.features__list-photo {
+    background-color: #f2f0ec;
+    border-radius: 100%;
+    max-width: 50px;
+    height: 50px;
+    padding: 12px;
+}
 
-    .features__list img {
-        width: 26px;
-        height: 26px;
-    }
+.features-block-info__title {
+    font-size: 24px;
+    line-height: 29.5px;
+    margin-right: 5px;
+}
 
-    .features__list-photo {
-        background-color: #f2f0ec;
-        border-radius: 100%;
-        max-width: 50px;
-        height: 50px;
-        padding: 12px;
-    }
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 60px 0;
+}
 
-    .features-block-info__title {
-        font-size: 24px;
-        line-height: 29.5px;
-        margin-right: 5px;
-    }
-
-    .photos{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 15px;
-        row-gap: 15px;
-        padding: 60px 0;
-    }
-
-    .features-photos{
-        padding-bottom: 60px;
-    }
-
+.features-photos{
+    padding-bottom: 60px;
 }
 
 @media(min-width: 480px) {
@@ -152,4 +133,10 @@
         margin-right: 5px;
     }
 
+}
+
+@media (min-width: 992px) {
+    .photos {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
