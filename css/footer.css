@@ -58,3 +58,26 @@ input{
 button:hover{
     background-color:#513b25;
 }
+.footer__wrapper{
+    display: flex;
+    flex-direction:column;
+}
+.footer__item{
+    display: flex;
+    flex-direction:row;
+}
+.footer__item-text{
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon{
+    width:70px;
+    height:70px;
+}
+.footer__item-title{
+    color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight: 400;
+}
