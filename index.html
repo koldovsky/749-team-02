@@ -12,9 +12,10 @@
   <body>
     <!--Block 'Header' by Valeria Sekret-->
     <header class="header">
+      <div class="header_container">
       <nav class="header__nav">
         <a href="index.html" class="header__logo-container">
-          <img class="header__logo" width="188" src="img/header/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo">
+          <img class="header__logo" src="img/header/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo">
         </a>
         <div class="header__menu">
           <a href="#about" class="header__menu-item">About us</a>
@@ -45,12 +46,15 @@
       <div class="header__banner">
         <h1 class="header__title">Coffee Lab</h1>
         <p class="header__description">COFFEE LAB SCHOOL</p>
-        <div class="header__divider line"></div>
+        <div class="header__divider">
+        <div class="header-liner"></div>
+        </div>
         <p class="header__slogan">
           Master your coffee skills, whether you're a barista or just a coffee
           fan.
         </p>
       </div>
+    </div>
     </header>
 
     <main>
@@ -1099,17 +1103,14 @@
 
     <!--Block 'Footer' by Veronika Chudyk-->
     <footer>
-      <img src="img/footer/coffee.svg" alt="/" />
+      <img src="img/footer/coffee.svg"/>
       <div class="form__map">
-        <form class="footer__contact__form">
-          <span class="footer__form__span">Write us</span>
-          <span class="footer__contacts"id="contacts">Contacts</span>
+        <form class="footer__contact-form">
+          <span class="footer__form-span">Write us</span>
+          <span class="footer__contacts" id="contacts">Contacts</span>
           <i class="fa fa-phone" aria-hidden="true"
-            ><span class="footer__phone__num">+1 (234) 567 89 00</span></i
-          >
-          <i class="fa-solid fa-envelope"
-            ><a href="mailto:coffeelab@email.com">coffeelab@email.com</a></i
-          >
+            ><span class="footer__number">+1 (234) 567 89 00</span></i>
+          <i class="fa-solid fa-envelope"><a href="mailto:coffeelab@email.com">coffeelab@email.com</a></i>
           <input type="text" placeholder="enter full name*" />
           <input type="number" placeholder="enter phone number*" />
           <input type="email" placeholder="enter your email*" />
@@ -1122,29 +1123,38 @@
           height="450"
           style="border: 0"
           allowfullscreen=""
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="small__footer__wrapper">
-        <div class="schedule">
-          <i class="fa-solid fa-clock">opening hours</i
-          ><!--change-->
-          <span class="opening__days">Monday-Saturday:11am-9pm </span>
-          <span class="opening__days">Sunday:11am-7pm</span>
+      <div class="footer__wrapper">
+        <div class="footer__item">
+          <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/clock.png">
+          </div>
+              <div class="footer__item-text">
+                <span class="footer__item-title">opening hours</span>
+                <span class="footer__item-text">Monday-Saturday:11am-9pm </span>
+                <span class="footer__item-text">Sunday:11am-7pm</span>
+            </div>
+    </div>
+    <div class="footer__item">
+        <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/location-dot.png">
         </div>
-        <div class="location">
-          <i class="fa-solid fa-location-dot">location</i>
-          <span class="street__city"
-            >Coffee Lab School, Lilac Street Avenue 8, 889859, NY, USA</span
-          >
+        <div class="footer__item-text">
+            <span class="footer__item-title">location</span>
+            <span class="footer__item-text">Coffee Lab School, Lilac Street</span>
+            <span class="footer__item-text">Avenue 8, 889859, NY, USA</span>
         </div>
-        <div class="questions">
-          <span class="findout__info"
-            >You can contact us in any convenient way or read our FAQ</span
-          >
+    </div>
+    <div class="footer__item">
+        <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/questionmark.png">
+    
         </div>
-      </div>
-
+        <div class="footer__item-text">
+            <span class="footer__item-title">any questions</span>
+            <span class="footer__item-text">You can contact us in any</span>
+            <span class="footer__item-text">convenient way or read our FAQ</span>
+        </div>
+    </div>
+    </div>
       <nav class="footer__nav">
         <a href="index.html" class="footer__logo-container">
           <img
@@ -1173,7 +1183,7 @@
           </a>
           <a
             href="https://www.instagram.com/"
-            class="header__social-link"
+            class="footer__social-link"
             target="_blank"
           >
             <svg class="footer__instagram-icon">
@@ -1184,7 +1194,7 @@
           </a>
           <a
             href="https://twitter.com/"
-            class="header__social-link"
+            class="footer__social-link"
             target="_blank"
           >
             <svg class="footer__twitter-icon">
@@ -1195,7 +1205,7 @@
           </a>
           <a
             href="https://www.youtube.com/"
-            class="header__social-links"
+            class="footer__social-links"
             target="_blank"
           >
             <svg class="footer__youtube-icon">

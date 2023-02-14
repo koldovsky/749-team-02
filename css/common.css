@@ -12,10 +12,6 @@
     --subtitle-color-dark: #27292b;
     --light-description-color:rgb(230,230,230);
     --description-color: rgb(130,130,130);
-    --title-font-family: 'Satisfy', cursive;
-    --subtitle-font-family: 'Bebas Neue', cursive;
-    --description-font-family: 'Roboto', sans-serif;
-    --icon-color:#c7a17a;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     scroll-behavior: smooth;
