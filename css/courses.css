@@ -33,8 +33,12 @@
     margin-top: 45px;
     padding-left: 7.5px;
     padding-right: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .courses__item{
+    max-width: 345px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -82,7 +86,22 @@
     margin-top: 35px;
     margin-bottom: 10px;
 }
-
 .course__link:hover {
     background-color: var(--subtitle-color-dark);
+}
+
+
+@media (min-width: 767px) {
+    .courses__block {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 991px) {
+    .courses__block {
+        font-size: 58px;
+    }
+    .courses__item {
+        max-width: 295px;
+    }
 }
