@@ -94,6 +94,7 @@
     .features-wrapper {
         flex-direction: row;
         justify-content: space-between;
+        column-gap: 30px;
     }
 
     .features__subtitle {
