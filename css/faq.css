@@ -44,9 +44,8 @@
     bottom: 0;
     left: 0;
 }
-.line {
+.faq__line {
     display: block;
     max-width: 5%;
     border: 2px solid #c7a17a;
-    margin: 0 auto;
 }
