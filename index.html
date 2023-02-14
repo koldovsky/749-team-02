@@ -1099,7 +1099,7 @@
 
     <!--Block 'Footer' by Veronika Chudyk-->
     <footer>
-      <img src="img/footer/coffee.svg" alt="/" />
+      <img src="img/footer/coffee.svg"/>
       <div class="form__map">
         <form class="footer__contact-form">
           <span class="footer__form-span">Write us</span>
@@ -1121,26 +1121,36 @@
           allowfullscreen=""
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="small__footer-wrapper">
-        <div class="schedule">
-          <i class="fa-solid fa-clock">opening hours</i
-          ><!--change-->
-          <span class="opening__days">Monday-Saturday:11am-9pm </span>
-          <span class="opening__days">Sunday:11am-7pm</span>
+      <div class="footer__wrapper">
+        <div class="footer__item">
+          <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/clock.png">
+          </div>
+              <div class="footer__item-text">
+                <span class="footer__item-title">opening hours</span>
+                <span class="footer__item-text">Monday-Saturday:11am-9pm </span>
+                <span class="footer__item-text">Sunday:11am-7pm</span>
+            </div>
+    </div>
+    <div class="footer__item">
+        <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/location-dot.png">
         </div>
-        <div class="location">
-          <i class="fa-solid fa-location-dot">location</i>
-          <span class="street__city"
-            >Coffee Lab School, Lilac Street Avenue 8, 889859, NY, USA</span
-          >
+        <div class="footer__item-text">
+            <span class="footer__item-title">location</span>
+            <span class="footer__item-text">Coffee Lab School, Lilac Street</span>
+            <span class="footer__item-text">Avenue 8, 889859, NY, USA</span>
         </div>
-        <div class="questions">
-          <span class="findout__info"
-            >You can contact us in any convenient way or read our FAQ</span
-          >
+    </div>
+    <div class="footer__item">
+        <div class="footer__image-wrapper"><img class="footer-icon" src="img/footer/questionmark.png">
+    
         </div>
-      </div>
-
+        <div class="footer__item-text">
+            <span class="footer__item-title">any questions</span>
+            <span class="footer__item-text">You can contact us in any</span>
+            <span class="footer__item-text">convenient way or read our FAQ</span>
+        </div>
+    </div>
+    </div>
       <nav class="footer__nav">
         <a href="index.html" class="footer__logo-container">
           <img
