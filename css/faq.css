@@ -1,8 +1,27 @@
 .faq {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px;
+    /*padding-right: 24px;*/
     background-color: #f2f0ec;
     position: relative;
+}
+
+.faq__header {
+    font-weight: 400;
+    line-height: 26px;
+}
+.faq__title {
+    color:var(--title-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.faq__subtitle {
+    color: var(--subtitle-color-light);
+    font-family: Bebas Neue, cursive;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 1.16px;
+    line-height: 63.8px
 }
 .faq__block-section-container {
     position: static;
@@ -13,7 +32,7 @@
     color: #fff;
 }
 .faq__block-container {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
 }
 .faq__block-left, .faq__block-right {
@@ -45,7 +64,5 @@
     left: 0;
 }
 .faq__line {
-    display: block;
-    max-width: 5%;
-    border: 2px solid #c7a17a;
+    max-width: 3%;
 }
