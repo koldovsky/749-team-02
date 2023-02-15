@@ -8,17 +8,12 @@
       font-weight: 400;
       line-height: 25.5px;
       overflow-wrap: break-word;
-      padding: 0 0 90px 0;
+      padding: 90px 0 90px 0;
       position: relative;
       vertical-align: baseline;
       z-index: 1;
 }
 
-.pricing__divider-photo {
-    padding-top: 90px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
 .pricing__header {
     width: 100%;
     text-align: center;
@@ -147,11 +142,9 @@
     letter-spacing: 0.3px;
     line-height: 15px;
     height: 45px;
-    overflow-wrap: break-word;
     text-align: center;
     text-decoration: none;
     vertical-align: baseline;
-    word-break: break-word;
     margin-top: 35px;
     margin-bottom: 10px;
     padding: 15px 0 15px 0;
