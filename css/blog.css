@@ -1,13 +1,11 @@
-.blog {
+    .blog{
     padding-left: 24px;
     padding-right: 24px;
-        background-color: #f2f0ec;
-    }
-    
+    background-color: #f2f0ec;
+    }  
     .blog_title {
         color: var(--title-color);
         text-align: center ;
-        font-family: 'roboto';
         padding-top: 90px;
     }
     .blog_subtitle {
@@ -19,7 +17,6 @@
     }
     .blog_line{
         border: var(--title-color) solid 3px;
-        display: flex;
         width: 60px;
         margin: 25px auto 25px auto;
     }
@@ -28,7 +25,7 @@
         font-size: 19px;
         margin-top: 20px;
         margin-bottom: 40px;
-       color: var(--description-color );
+        color: var(--description-color );
     }
     .blog_block_style {
         padding-right: 15px;
@@ -48,14 +45,64 @@
         font-size: 24px;
         text-align: left;
         color: var(--subtitle-color-dark);
-        padding-top: 20px;
         padding-bottom: 20px;
         font-weight: 900;
+        text-decoration: none;
     }
     .blog_block_text {
-        font-size: 17px;
+        font-size:17px;
         color: #828282;
         text-align: left;
         line-height: 150%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
     }
-    
+    .blog_list_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .blog_list_img {
+        justify-content: left;
+        padding-right: 10px;
+    }
+    .blog_list_img img {
+        border-radius: 50%;
+        max-width: 250px;
+    }
+    .blog_list_info {
+        justify-content: right;
+    }
+    .blog_span_list {
+    color: var(--title-color);
+    font-size: 15px;
+    }
+    .blog_list_link {
+    color: black;
+    text-decoration: none;
+    }
+    .blog_link_text {
+        color: rgb(130,130,130) ; 
+        font-size: 15px;
+    }
+    @media (min-width: 760px) {
+    .blog_block_style{
+        display: flex;
+       flex-direction: row;
+    }
+    }
+    @media (min-width: 760px){
+        .blog_list_ol{
+            padding-left: 20px;
+        }
+    }
+    @media (min-width: 760px){
+        .blog_block_paragraphs{
+            display: flex;
+            flex-direction: row;
+        }
+    }

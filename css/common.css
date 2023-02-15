@@ -10,6 +10,7 @@
     --title-color: #c7a17a;
     --subtitle-color-light: #fff;
     --subtitle-color-dark: #27292b;
+    --light-description-color:rgb(230,230,230);
     --description-color: rgb(130,130,130);
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -26,7 +27,7 @@ img {
     margin: auto;
 }
 
-h2 {
+h2, h1 {
     font-size: 26px;
     font-family: Satisfy;
     color: var(--title-color);
