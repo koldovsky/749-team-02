@@ -10,7 +10,7 @@
 }
 
 .header__logo-container{
-    width: 272px;
+    max-width: 100px;
 }
 
 .header__logo{
@@ -22,7 +22,7 @@
     min-height: 100px;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     justify-content: space-between;
     padding: 30px 0;
 }
@@ -71,21 +71,14 @@
     text-align: center;
     letter-spacing: 1.24px;
     line-height: 62px;
-    margin-top: 19px;
-    margin-bottom: 3px;
-}
-
-.header__divider{
-    margin: 14px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 20px;
 }
 
 .header-liner{
-        background-color: #c7a17a;
-        height: 3px;
-        width: 10.88px;
+    background-color: #c7a17a;
+    height: 3px;
+    width: 4%;
+    margin: 15px 0;
 }
 
 .header__slogan{
@@ -101,67 +94,12 @@
         height: 103vh;
         background-position-x: 58%; 
         }
-
-        .header-liner{
-            width: 13.08px;
-    }
-}
-
-@media (min-width: 375px){
-        .header-liner{
-            width: 15.08px;
-    }
-}
-
-@media (min-width: 440px){
-    .header-liner{
-        width: 15.68px;
-    }
 }
 
 @media (min-width: 441px){
     .header {
         background-position-x: 58%;    
         height: 578px;
-    }
-    
-    .header-liner{
-        width: 15.72px;
-    }
-}
-
-@media (min-width: 441px){
-    .header {
-        background-position-x: 58%;    
-        height: 578px;
-    }
-    
-    .header-liner{
-        width: 15.72px;
-    }
-}
-
-@media (min-width: 492px){
-    .header-liner{
-        width: 17.76px;
-    }
-}
-
-@media (min-width: 528px){
-    .header-liner{
-        width: 19.2px;
-    }
-}
-
-@media (min-width: 586px){
-    .header-liner{
-        width: 21.52px;
-    }
-}
-
-@media (min-width: 604px){
-    .header-liner{
-        width: 22.23px;
     }
 }
 
@@ -183,12 +121,7 @@
         font-size: 88px;
         letter-spacing: 1.76px;
         line-height: 88px;
-        margin-top: 20px;
-        margin-bottom: 1px;
-    }
-
-    .header-liner{
-        width: 28.16px;
+        margin-top: 19px;
     }
 
     .header {
@@ -199,6 +132,28 @@
     .header__slogan{
         margin-top: 1px;
     }
+}
+
+@media (min-width: 992px){
+    .header {
+        background-position-x: 58%;    
+        height: 157vh;
+    }
+
+    .header_container{
+        padding: 0;
+    }
+
+    .header__nav{
+        padding: 30px 40px;
+        min-height: 75px;
+        display: flex;
+        flex-direction: row;
+        }
+
+    .header__logo-container{
+        height: 30px;
+        }
 }
 
 @media (min-width: 1056px){
@@ -241,10 +196,6 @@
         line-height: 115px;
         margin-top: 19px;
         margin-bottom: 2px;
-    }
-
-    .header-liner{
-        width: 39.04px;
     }
 }
 
