@@ -151,6 +151,10 @@
         margin-right: 5px;
     }
 
+    .photos {
+        padding: 0 32px;
+    }
+
 }
 
 @media (min-width: 992px) {
