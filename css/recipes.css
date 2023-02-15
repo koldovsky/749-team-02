@@ -1,3 +1,10 @@
+.recipes{
+    background: #f2f0ec;
+}
+.recipes__divider {
+    width: 51.3px;
+    text-align: left;
+}
 .recipes__slogan {
     color: var(--subtitle-color-dark);
     font-family: Bebas Neue, cursive;
