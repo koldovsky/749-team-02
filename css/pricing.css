@@ -1,4 +1,4 @@
-.pricing{
+.pricing {
       background: #27292b;
       display: block;
       flex-basis: 100%;
@@ -12,15 +12,14 @@
       position: relative;
       vertical-align: baseline;
       z-index: 1;
-      -webkit-font-smoothing: antialiased;
 }
 
-.pricing__header{
+.pricing__header {
     width: 100%;
     text-align: center;
 }
 
-.pricing__title{
+.pricing__title {
     color:var(--title-color);
     font-family: Satisfy, cursive;
     font-size: 26px;
@@ -32,9 +31,9 @@
     vertical-align: baseline;
 }
 
-.pricing__subtitle{
+.pricing__subtitle {
     color: var(--subtitle-color-light);
-    font-family: "bebas Neue", cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 38px;
     font-style: normal;
     font-weight: 400;
@@ -44,14 +43,13 @@
     padding: 5px 0 5px 0;
 }
 
-.divider__line{
-    display: block;
+.divider__line {
     max-width: 5%;
     border: 2px solid #c7a17a;
     margin: 0 auto;
 }
 
-.pricing__description{
+.pricing__description {
     color: rgb(230, 230, 230);
     font-family: Roboto, sans-serif;
     font-size: 19px;
@@ -64,14 +62,21 @@
     padding: 15px 0 45px 0;
 }
 
+.pricing__carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .carousel__slide {
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.04);
     width: 272px;
 }
 
-.carousel__slide h3{
+.carousel__slide h3 {
     color: rgb(255, 255, 255);
-    font-family: "bebas Neue", cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -81,7 +86,7 @@
     vertical-align: baseline;
 }
 
-.slide__subtitle{
+.slide__subtitle {
     color:rgb(199, 161, 122);
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -95,7 +100,7 @@
     position: relative;
 }
 
-.icon{
+.icon {
     flex-basis: 20px;
     height: 24px;
     justify-content: flex-start;
@@ -104,13 +109,13 @@
     vertical-align: middle;
 }
 
-.slide__content-item{
+.slide__content-item {
     margin-bottom: 16px;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.slide__content-text{
+.slide__content-text {
     color: rgb(225, 224, 224);
     font-family: Roboto, sans-serif;
     font-size: 17px;
@@ -124,3 +129,29 @@
     position: relative;
     justify-content: flex-start;
 }
+
+.slide__link {
+    display: block;
+    background-color: var( --title-color);
+    width: 149.2px;
+    color: var(--subtitle-color-light);
+    cursor: pointer;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 15px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 15px 0 15px 0;
+}
+
+.slide__link:hover {
+    background-color: var(--subtitle-color-light);
+    color: var(--subtitle-color-dark);
+}
+
