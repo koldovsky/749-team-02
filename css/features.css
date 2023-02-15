@@ -1,9 +1,10 @@
 .features {
-    padding: 90px 24px 0;
+    padding-top: 90px;
 }
 
 .features-wrapper {
     display: flex;
+    padding: 0 24px;
 }
 
 .features__title {
@@ -24,6 +25,7 @@
     font-family: Bebas Neue, cursive;
     margin-top: 20px;
     line-height: 41px;
+    letter-spacing: 0.76px;
 }
 
 .features-block {
@@ -46,7 +48,6 @@
 
 .features__list{
     margin: 25px 0 50px;
-    
 }
 
 .features-photos img {
@@ -63,19 +64,6 @@
 
 .features__line {
     padding: 15px 0;
-}
-
-.features__list img {
-    width: 26px;
-    height: 26px;
-}
-
-.features__list-photo {
-    background-color: #f2f0ec;
-    border-radius: 100%;
-    max-width: 50px;
-    height: 50px;
-    padding: 12px;
 }
 
 .features-block-info__title {
@@ -96,6 +84,26 @@
     padding-bottom: 60px;
 }
 
+.features-block__wrapper-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f0ec;
+    border-radius: 100%;
+    max-width: 50px;
+    height: 50px;
+    width: 100%;
+}
+
+.features__list img {
+    width: 18px;
+    height: 26px;
+}
+
+.features__list img:last-of-type{
+    width: 26px;
+}
+
 @media(min-width: 480px) {
     .photos {
         column-gap: 30px;
@@ -103,28 +111,38 @@
     }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .features-wrapper {
         flex-direction: row;
         justify-content: space-between;
+        column-gap: 30px;
+        padding: 0 32px;
     }
 
     .features__subtitle {
         font-size: 48px;
         line-height: 52.8px;
+        letter-spacing: 0.96px;
     }
 
-    .features__list-photo {
+    .features-block__wrapper-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #f2f0ec;
         border-radius: 100%;
         max-width: 70px;
         height: 70px;
-        padding: 15px;
+        width: 100%;
     }
 
     .features__list img {
         width: 27px;
         height: 40px;
+    }
+
+    .features__list img:last-of-type{
+        width: 40px;
     }
 
     .features-block-info__title {
@@ -138,5 +156,26 @@
 @media (min-width: 992px) {
     .photos {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .features__subtitle {
+        font-size: 58px;
+        line-height: 63px;
+    }
+
+    .features__title {
+        font-size: 24px;
+    }
+
+    .features-wrapper{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}
+
+@media (min-width: 1280px){
+    .features-wrapper{
+        padding: 0 15px;
     }
 }

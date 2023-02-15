@@ -62,7 +62,7 @@
       <section id="courses" class="courses">
         <h2 class="courses__title">Courses</h2>
         <p class="courses__block">make coffee like a pro</p>
-        <div></div>
+        <div class="courses-liner"></div>
         <p class="courses__text">
           Sign up for one of our professional courses.
         </p>
@@ -70,7 +70,6 @@
           <article class="courses__item">
             <picture class="course__item-photo">
               <img
-                width="250"
                 class="course__item-img"
                 src="img/courses/course_latte.png"
                 alt="First course"
@@ -101,7 +100,6 @@
           <article class="courses__item">
             <picture class="course__item-photo">
               <img
-                width="250"
                 class="course__item-img"
                 src="img/courses/course_barista.png"
                 alt="Second course"
@@ -133,7 +131,6 @@
           <article class="courses__item">
             <picture class="course__item-photo">
               <img
-                width="250"
                 class="course__item-img"
                 src="img/courses/course_advanced.png"
                 alt="Second course"
@@ -165,7 +162,6 @@
           <article class="courses__item">
             <picture class="course__item-photo">
               <img
-                width="250"
                 class="course__item-img"
                 src="img/courses/course_pro.png"
                 alt="Second course"
@@ -757,7 +753,7 @@
       <section class="features container">
         <div class="features-wrapper">
           <div class="features-info">
-            <h2 class="features__title">Featuress</h2>
+            <h2 class="features__title">Features</h2>
             <p class="features__subtitle">Remember this</p>
             <div class="features__line">
               <span class="line"></span>
@@ -767,8 +763,10 @@
             </p>
             <div class="features__list">
               <div class="features-block">
-                <div class="features__list-photo">
-                  <img src="img/features/equipment-icon.svg" alt="Equipment" />
+                <div class="features-block__wrapper-photo">
+                  <div class="features__list-photo">
+                    <img src="img/features/equipment-icon.svg" alt="Equipment" />
+                  </div>
                 </div>
                 <div class="features-block-info">
                   <p class="features-block-info__title">
@@ -781,8 +779,10 @@
                 </div>
               </div>
               <div class="features-block">
-                <div class="features__list-photo">
-                  <img src="img/features/baristas-icon.svg" alt="Barista" />
+                <div class="features-block__wrapper-photo">
+                  <div class="features__list-photo">
+                    <img src="img/features/baristas-icon.svg" alt="Barista">
+                  </div>
                 </div>
                 <div class="features-block-info">
                   <p class="features-block-info__title">EXPERIENCED BARISTAS</p>
@@ -793,8 +793,10 @@
                 </div>
               </div>
               <div class="features-block">
-                <div class="features__list-photo">
-                  <img src="img/features/cup-icon.svg" alt="Cup" />
+                <div class="features-block__wrapper-photo">
+                  <div class="features__list-photo">
+                    <img src="img/features/cup-icon.svg" alt="Cup" />
+                  </div>
                 </div>
                 <div class="features-block-info">
                   <p class="features-block-info__title">
@@ -914,14 +916,12 @@
               <div class="faq__header">
                 <h2 class="faq__title">FAQ</h2>
                 <h3 class="faq__subtitle">ABOUT OUR COURSES</h3>
-                <span class="testimonials__line"></span>
-                <!--                <img width="40" src="img/line.png" alt="Line">-->
+                <span class="faq__line line"></span>
                 <div class="faq__block">
                   <p class="faq__block-text-strong">
                     <strong>
                       We run our courses approximately once in 2-3 months, so be
-                      sure to apply in advance.</strong
-                    >
+                      sure to apply in advance.</strong>
                   </p>
                   <p class="faq__block-text-none"></p>
                   <p class="faq__block-text">
@@ -929,7 +929,7 @@
                     are held offline or online + offline. If you have any
                     questions, please read this section or contact us directly.
                   </p>
-                  <p class="faq__block-text-none"></p>
+<!--                  <p class="faq__block-text-none"></p>-->
                   <div class="faq__block-button">
                     <button name="button">Select a course</button>
                     <button name="button">Contact Us</button>

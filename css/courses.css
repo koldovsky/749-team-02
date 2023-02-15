@@ -1,0 +1,107 @@
+.courses{
+    padding: 90px 24px;
+    background: #f2f0ec;
+}
+.courses__title{
+    display: flex;
+    justify-content: center;
+}
+.courses__block{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: "Bebas Neue", cursive;
+    color: rgb(39, 41, 43);
+    line-height: 52.8px;
+    letter-spacing: 0.96px;
+}
+.courses-liner{
+    background-color: #c7a17a;
+    height: 3px;
+    width: 13.59px;
+    margin: 15px auto;
+}
+.courses__text{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(91, 91, 91);
+    line-height: 28.5px;
+    text-align: center;
+}
+.courses__items{
+    margin-top: 45px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.courses__item{
+    max-width: 345px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.course__item-photo{
+    width: 100%;
+    object-fit: cover;
+}
+.course__item-name{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "Bebas Neue", cursive;
+    color: rgb(39, 41, 43);
+}
+.course__item-inner{
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(159, 159, 159);
+}
+.course__list-circs{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course__item-circ{
+    margin-bottom: 16px;
+}
+.course__item-text{
+    font-size: 17px;
+    color: rgb(159, 159, 159);
+    line-height: 25.5px;
+}
+
+.course__link {
+    background-color: var(--title-color);
+    max-width: 120px;
+    color: var(--subtitle-color-light);
+    padding: 18px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16.5px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.course__link:hover {
+    background-color: var(--subtitle-color-dark);
+}
+
+
+@media (min-width: 767px) {
+    .courses__block {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 991px) {
+    .courses__block {
+        font-size: 58px;
+    }
+    .courses__item {
+        max-width: 295px;
+    }
+}
