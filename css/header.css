@@ -195,6 +195,7 @@
 
     .header-liner{
         width: 3.5%;
+    }
 }
 
 @media (min-width: 1056px){
@@ -207,6 +208,7 @@
         height: 29.37px;
     }
 }
+
 @media (min-width: 1056px){
     .header__nav{
      max-height: 92.64px;
