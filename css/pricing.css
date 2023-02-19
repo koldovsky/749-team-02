@@ -184,8 +184,3 @@
   background-position: center bottom;
   padding-bottom: 150px;
 }
-
-
-@media (max-width: 767px) {
-    text-align: left;
-}
