@@ -1,17 +1,18 @@
 .pricing {
       background: #27292b;
       display: block;
-      flex-basis: 100%;
-      flex-shrink: 0;
       font-family: Roboto, sans-serif;
       font-size: 17px;
       font-weight: 400;
       line-height: 25.5px;
       overflow-wrap: break-word;
-      padding: 90px 0 90px 0;
       position: relative;
       vertical-align: baseline;
-      z-index: 1;
+}
+
+.pricing__divider {
+    background: url("../img/pricing/background.svg") 52.19% 100% / cover no-repeat, #f2f0ec;
+    background-size: contain;
 }
 
 .pricing__header {
@@ -29,6 +30,7 @@
     line-height: 26px;
     text-align: center;
     vertical-align: baseline;
+    padding: 90px 0 20px 0;
 }
 
 .pricing__subtitle {
@@ -40,7 +42,7 @@
     letter-spacing: 0.76px;
     line-height: 41.8px;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 5px 0 20px 0;
 }
 
 .divider__line {
@@ -62,16 +64,32 @@
     padding: 15px 0 45px 0;
 }
 
-.pricing__carousel {
+.pricing__carousel{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+     padding: 0 15px 0 15px;
+
+}
+
+
+.carousel__grid {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-template-rows: 490px;
+    padding: 29px 27px 29px 0;
+    grid-column-gap: 20px;
+    justify-items: center;
 }
 
 .carousel__slide {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.04);
     width: 272px;
+    padding: 30px 20px 0 20px;
 }
 
 .carousel__slide h3 {
@@ -84,6 +102,7 @@
     line-height: 29.52px;
     text-align: left;
     vertical-align: baseline;
+    margin-bottom: 20px;
 }
 
 .slide__subtitle {
@@ -96,8 +115,12 @@
     line-height: 22.5px;
     text-align: left;
     vertical-align: baseline;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     position: relative;
+    padding: 5px 0 5px 0;
+}
+.slide__content {
+    margin: 30px 0 0 0;
 }
 
 .icon {
@@ -155,3 +178,14 @@
     color: var(--subtitle-color-dark);
 }
 
+
+.pricing__divider-footer {
+  background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
+  background-position: center bottom;
+  padding-bottom: 150px;
+}
+
+
+@media (max-width: 767px) {
+    text-align: left;
+}
