@@ -1,7 +1,8 @@
 .header {
     background-image: linear-gradient(rgba(34,36,38,0.9), rgba(34,36,38,0.9)), url(../img/header/header-background-image.png);
     background-size: cover;
-    background-position-x: 58%;    
+    background-position-x: 58.13%;    
+    background-position-y: 13.28%;    
 }
 
 .header__container{
@@ -86,7 +87,6 @@
 
 @media (min-width: 441px){
     .header {
-        background-position-x: 58%;    
         height: 578px;
     }
 }
@@ -97,7 +97,6 @@
     }
 
     .header {
-        background-position-x: 58%; 
         height: 748px;   
     }
 
@@ -119,7 +118,6 @@
 
 @media (min-width: 992px){
     .header {
-        background-position-x: 58%;    
         height: 980.5px;
     }
 
@@ -161,7 +159,27 @@
         font-weight: 600;
         font-style: normal;
         text-align: left;
-    }
+        position: relative;
+    } 
+
+    header__menu-item::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #fff;
+        bottom: -5px;
+        left: 0;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      
+    .header__menu-item:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
     
     .header__socialmedia-icons{
         display: flex;
@@ -175,6 +193,11 @@
     .header__facebook-icon, .header__instagram-icon, .header__twitter-icon, .header__youtube-icon{
         width: 30px;
         height: 30px;
+    }
+
+    .header__socialmedia-icons a.header__social-link:hover{
+        fill: #b88857;
+        transition: 0.1s;
     }
 
     .header__banner{
@@ -199,8 +222,7 @@
 }
 
 @media (min-width: 1056px){
-    .header{
-        background-position-x: 58%;   
+    .header{ 
         height: 938.141px; 
     }
 
