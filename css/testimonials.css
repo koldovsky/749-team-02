@@ -48,15 +48,15 @@
     padding: 0 15px 0 15px;
 }
 
-.testimonials__body div:nth-child(2n),
-.testimonials__item:last-child {
-    display: none;
-}
-
 .testimonials__item {
+    display: none;
     width: 100%;
     padding: 90px 20px 36px 20px;
     border: 2px solid rgb(224 221 220 / 40%);
+}
+
+.active {
+    display: block;
 }
 
 .testimonials__icon {
@@ -103,6 +103,7 @@
     cursor: pointer;
     border: 1px solid rgb(39, 39, 39);
     border-radius: 50%;
+    transition: all .3ms ease-in-out;
     z-index: 1;
 }
 
