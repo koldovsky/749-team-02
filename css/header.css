@@ -39,6 +39,11 @@
     text-align: left;
     position: relative;
 }
+
+.header__menu>a:hover{
+    color: #fff;
+}
+
 .header__menu>a::before {
     content: '';
     position: absolute;
@@ -194,10 +199,18 @@
         height: 30px;
     }
 
-    .header__socialmedia-icons>a:hover{
-        fill: #b88857;
-        transition: 0.1s;
-    }
+   .header__social-link-fb{
+    background-image: url('../img/header/header-facebook-icon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 30px;
+    height: 30px;
+   }
+   
+   .header__social-link-fb:hover{
+    filter: saturate(160%) brightness(85%);
+   }
 
     .header__banner{
         padding: 270px 0 355px;
