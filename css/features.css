@@ -63,7 +63,7 @@
 }
 
 .features__line {
-    padding: 15px 0;
+    max-width: 10%;
 }
 
 .features-block-info__title {
