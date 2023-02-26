@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="js/faq.js"></script>
   </head>
   <body>
     <!--Block 'Header' by Valeria Sekret-->
@@ -25,22 +26,10 @@
           <a href="#contacts" class="header__menu-item">Contacts</a>
         </div>
         <div class="header__socialmedia-icons">
-          <a href="https://www.facebook.com/" class="header__social-link" target="_blank">
-            <svg class="header__facebook-icon"><use href="img/header/header-fb-icon.svg#header-fb-icon"></use>
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/" class="header__social-link" target="_blank">
-            <svg class="header__instagram-icon"><use href="img/header/header-instagram-icon.svg#header-instagram-icon"></use>
-            </svg>
-          </a>
-          <a href="https://twitter.com/" class="header__social-link" target="_blank">
-            <svg class="header__twitter-icon"><use href="img/header/header-twitter-icon.svg#header-twitter-icon"></use>
-            </svg>
-          </a>
-          <a href="https://www.youtube.com/" class="header__social-links" target="_blank">
-            <svg class="header__youtube-icon"><use href="img/header/header-youtube-icon.svg#header-youtube-icon"></use>
-            </svg>
-          </a>
+          <a href="https://www.facebook.com/" class="header__facebook" target="_blank"></a>
+          <a href="https://www.instagram.com/" class="header__instagram" target="_blank"></a>
+          <a href="https://twitter.com/" class="header__twitter" target="_blank"></a>
+          <a href="https://www.youtube.com/" class="header__youtube" target="_blank"></a>
         </div>
       </nav>
       <div class="header__banner">
@@ -187,6 +176,8 @@
             </p>
             <a class="course__link" href="#">Sign Up</a>
           </article>
+          <span class="prev" id="prev_bt">&#10094;</span>
+          <span class="next" id="next_bt">&#10095;</span>
         </div>
       </section>
 
@@ -857,9 +848,9 @@
           </p>
         </div>
         <div class="testimonials__body">
-          <span class="testimonials__arrow arrow__left"></span>
-          <span class="testimonials__arrow arrow__right"></span>
-          <div class="testimonials__item">
+          <span class="testimonials__arrow arrow__left" data-direction = "left"></span>
+          <span class="testimonials__arrow arrow__right" data-direction = "right"></span>
+          <div class="testimonials__item active" data-slide = "1">
             <span class="testimonials__icon"></span>
             <h3 class="testimonials__item_title">John Jeely</h3>
             <div class="testimonials__item_description">
@@ -875,7 +866,7 @@
               <p class="testimonials__description_date">December 15, 2022</p>
             </div>
           </div>
-          <div class="testimonials__item">
+          <div class="testimonials__item" data-slide = "2">
             <span class="testimonials__icon"></span>
             <h3 class="testimonials__item_title">Mary Woolen</h3>
             <div class="testimonials__item_description">
@@ -889,7 +880,7 @@
               <p class="testimonials__description_date">March 25, 2022</p>
             </div>
           </div>
-          <div class="testimonials__item">
+          <div class="testimonials__item" data-slide = "3">
             <span class="testimonials__icon"></span>
             <h3 class="testimonials__item_title">Lilly Blues</h3>
             <div class="testimonials__item_description">
@@ -914,69 +905,85 @@
             <div class="faq__block-background-overlay"></div>
           </div>
           <div class="faq__block-container">
-            <div class="faq__block-left">
+            <div class="faq__block faq__block-left">
               <div class="faq__header">
                 <h2 class="faq__title">FAQ</h2>
                 <h3 class="faq__subtitle">ABOUT OUR COURSES</h3>
                 <span class="faq__line line"></span>
-                <div class="faq__block">
+                <div>
                   <p class="faq__block-text-strong">
                     <strong>
                       We run our courses approximately once in 2-3 months, so be
                       sure to apply in advance.</strong>
                   </p>
-                  <p class="faq__block-text-none"></p>
                   <p class="faq__block-text">
                     Our groups consist of 5-10 people on average. Most courses
                     are held offline or online + offline. If you have any
                     questions, please read this section or contact us directly.
                   </p>
-<!--                  <p class="faq__block-text-none"></p>-->
                   <div class="faq__block-button">
-                    <button name="button">Select a course</button>
-                    <button name="button">Contact Us</button>
+                    <a class="faq__button faq__select-a-course" href="#pricing">Select a course</a>
+                    <a class="faq__button faq__contact-us" href="#contacts">Contact Us</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="faq__block-right">
-              <div class="faq__block-right-accord">
-                <h3 class="faq__block-right-accord-title">
-                  WHO ARE THIS COURSES FOR?
-                </h3>
-                <p class="faq__block-right-accord-text">
-                  We have different courses designed for beginners and
-                  professionals. It all depends on your skills and needs.
-                </p>
-              </div>
-              <div class="faq__block-right-accord">
-                <h3 class="faq__block-right-accord-title">
-                  DO I NEED TO BUY AN ESPRESSO MACHINE TO STUDY?
-                </h3>
-                <p class="faq__block-right-accord-text">
-                  A good coffee machine is a must for everyone who wants to make
-                  delicious coffee. Still, during the courses, you'll use our
-                  equipment, so you don't need to buy anything to study.
-                </p>
-              </div>
-              <div class="faq__block-right-accord">
-                <h3 class="faq__block-right-accord-title">
-                  DO YOU TEACH NEW WAYS OF BREWING COFFEE?
-                </h3>
-                <p class="faq__block-right-accord-text">
-                  Yes, you can master new techniques of brewing on our Advanced
-                  Barista Course.
-                </p>
-              </div>
-              <div class="faq__block-right-accord">
-                <h3 class="faq__block-right-accord-title">
-                  WHAT IF I DECIDE TO QUITE IN THE MIDDLE OF THE COURSE?
-                </h3>
-                <p class="faq__block-right-accord-text">
-                  If your plans change before the start of the course, you get
-                  your money back. But, in case of any changes when the course
-                  has already started, you can only switch to another course.
-                </p>
+            <div class="faq__block faq__block-right">
+              <div class="faq__accord-container">
+                <div class="faq__block-right-accord faq__collapsed">
+                  <div class="faq__accord-header">
+                    <h3 class="faq__block-right-accord-title">
+                      WHO ARE THIS COURSES FOR?
+                    </h3>
+                    <div class="faq__accord-icon-plus"></div>
+                  </div>
+                  <p class="faq__block-right-accord-text">
+                    We have different courses designed for beginners and
+                    professionals. It all depends on your skills and needs.
+                  </p>
+                </div>
+                <span class="faq__accord-line line"></span>
+                <div class="faq__block-right-accord faq__collapsed">
+                  <div class="faq__accord-header">
+                    <h3 class="faq__block-right-accord-title">
+                      DO I NEED TO BUY AN ESPRESSO MACHINE TO STUDY?
+                    </h3>
+                    <div class="faq__accord-icon-plus"></div>
+                  </div>
+                  <p class="faq__block-right-accord-text">
+                    A good coffee machine is a must for everyone who wants to make
+                    delicious coffee. Still, during the courses, you'll use our
+                    equipment, so you don't need to buy anything to study.
+                  </p>
+                </div>
+                <span class="faq__accord-line line"></span>
+                <div class="faq__block-right-accord faq__collapsed">
+                  <div class="faq__accord-header">
+                    <h3 class="faq__block-right-accord-title">
+                      DO YOU TEACH NEW WAYS OF BREWING COFFEE?
+                    </h3>
+                    <div class="faq__accord-icon-plus"></div>
+                  </div>
+                  <p class="faq__block-right-accord-text">
+                    Yes, you can master new techniques of brewing on our Advanced
+                    Barista Course.
+                  </p>
+                </div>
+                <span class="faq__accord-line line"></span>
+                <div class="faq__block-right-accord faq__collapsed">
+                  <div class="faq__accord-header">
+                    <h3 class="faq__block-right-accord-title">
+                      WHAT IF I DECIDE TO QUITE IN THE MIDDLE OF THE COURSE?
+                    </h3>
+                    <div class="faq__accord-icon-plus"></div>
+                  </div>
+                  <p class="faq__block-right-accord-text">
+                    If your plans change before the start of the course, you get
+                    your money back. But, in case of any changes when the course
+                    has already started, you can only switch to another course.
+                  </p>
+                </div>
+                <span class="faq__accord-line line"></span>
               </div>
             </div>
           </div>
@@ -1218,6 +1225,8 @@
         <p>All rights Reserved</p>
       </div>
     </footer>
+  <script src="js/courses-slider.js"></script>
+  <script src="js/testimonials.js"></script>
     <script src="js/pricing.js"></script>
   </body>
 </html>

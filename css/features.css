@@ -58,12 +58,9 @@
     flex-direction: column;
 }
 
-.features__line span {
-    max-width: 10%;
-}
-
 .features__line {
-    padding: 15px 0;
+    max-width: 10%;
+    margin: 15px 0;
 }
 
 .features-block-info__title {
