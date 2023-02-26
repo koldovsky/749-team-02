@@ -38,6 +38,8 @@
     justify-content: center;
 }
 .courses__item{
+    display: none;
+    flex-direction: column;
     max-width: 345px;
     padding-left: 15px;
     padding-right: 15px;
