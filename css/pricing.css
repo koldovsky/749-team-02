@@ -1,13 +1,13 @@
 .pricing {
-      background: #27292b;
-      display: block;
-      font-family: Roboto, sans-serif;
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 25.5px;
-      overflow-wrap: break-word;
-      position: relative;
-      vertical-align: baseline;
+    background: #27292b;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    overflow-wrap: break-word;
+    position: relative;
+    vertical-align: baseline;
 }
 
 .pricing__divider {
@@ -21,7 +21,7 @@
 }
 
 .pricing__title {
-    color:var(--title-color);
+    color: var(--title-color);
     font-family: Satisfy, cursive;
     font-size: 26px;
     font-style: normal;
@@ -64,33 +64,34 @@
     padding: 15px 0 45px 0;
 }
 
-.pricing__carousel{
+.pricing__carousel-container {
     display: flex;
     justify-content: space-between;
-
     flex-direction: row;
     position: relative;
     width: 100%;
-     padding: 0 15px 0 15px;
-
+    padding: 0 15px 0 15px;
+    align-items: center;
 }
 
-
-.carousel__grid {
+.carousel__slider {
     display: grid;
     grid-template-columns: repeat( 4, 1fr);
     grid-template-rows: 490px;
     padding: 29px 27px 29px 0;
-    grid-column-gap: 20px;
+    grid-column-gap: 30px;
     justify-items: center;
+    align-items: center;
+    min-height: 420px;
 }
 
 .carousel__slide {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.04);
-    width: 272px;
-    padding: 30px 20px 0 20px;
+    width: 350px;
+    padding: 30px 20px 20px 20px;
 }
+
 
 .carousel__slide h3 {
     color: rgb(255, 255, 255);
@@ -106,7 +107,7 @@
 }
 
 .slide__subtitle {
-    color:rgb(199, 161, 122);
+    color: rgb(199, 161, 122);
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -119,6 +120,7 @@
     position: relative;
     padding: 5px 0 5px 0;
 }
+
 .slide__content {
     margin: 30px 0 0 0;
 }
@@ -155,7 +157,7 @@
 
 .slide__link {
     display: block;
-    background-color: var( --title-color);
+    background-color: var(--title-color);
     width: 149.2px;
     color: var(--subtitle-color-light);
     cursor: pointer;
@@ -180,7 +182,12 @@
 
 
 .pricing__divider-footer {
-  background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
-  background-position: center bottom;
-  padding-bottom: 150px;
+    background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
+    background-position: center bottom;
+    padding-bottom: 150px;
+}
+
+.arrow-img {
+    width: 50px;
+    height: 50px;
 }
