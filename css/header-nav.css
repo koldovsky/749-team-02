@@ -1,0 +1,135 @@
+@media (max-width: 991px) {
+  body.lock {
+    overflow: hidden;
+  }
+
+  .navigation-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 10;
+  }
+
+  .navigation-burger {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 5;
+    margin: 12px 8px;
+  }
+
+  .navigation-burger:hover{
+    filter: brightness(56%);
+    transition: 0.2s ease-out;
+  }
+
+  .navigation-burger span,
+  .navigation-burger::before,
+  .navigation-burger::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--subtitle-color-light);
+    transition: all .05s ease-in-out;
+  }
+
+  .navigation-burger span {
+    top: 7px;
+    transform: scale(1);
+  }
+
+  .navigation-burger::before,
+  .navigation-burger::after {
+    content: " ";
+  }
+
+  .navigation-burger::before {
+    top: 0;
+  }
+
+  .navigation-burger::after {
+    bottom: 0;
+  }
+
+  .navigation-burger.active span {
+    transform: scale(0);
+  }
+
+  .navigation-burger.active::before {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+
+  .navigation-burger.active::after {
+    bottom: 40%;
+    transform: rotate(-45deg);
+  }
+
+  .header__container {
+    position: relative;
+  }
+
+  .navigation-wrapper {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--subtitle-color-dark);
+    z-index: 2;
+    transition: top 0.01s ease-in;
+    padding: 15px 24px 50px 24px;
+    transition: top 0.01s ease-in 0.01s;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  .navigation-wrapper.active {
+    top: 0;
+  }
+
+  .header__nav.active {
+    top: 0;
+  }
+
+  .header__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0; 
+    height: auto; 
+    z-index: 10;
+  }
+
+  .header__menu-item:hover {
+    color: var(--subtitle-color-light);
+  }
+
+  .header__socialmedia-icons {
+    position: relative;
+    min-width: 172px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  @media (min-width: 992px) {
+    .navigation-burger {
+      display: none;
+    }
+  }
+
+}
