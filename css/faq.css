@@ -124,22 +124,22 @@
     min-width: 0;
 }
 .faq__block-container {
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
+    margin: 150px 0;
 }
 .faq__block {
     display: flex;
 }
 @media (min-width: 768px) {
+    .faq__block-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .faq__block-left {
         margin-right: 100px;
     }
     .faq__block-right {
         margin-left: 100px;
-    }
-    .faq__block-container {
-        margin: 150px 300px;
     }
      .faq__block {
         flex-basis: 25%;
@@ -147,11 +147,7 @@
     }
 }
 @media (max-width: 767px) {
-    .faq__block-container {
-        margin: 150px 0;
-    }
     .faq__block {
-        flex-basis: 100%;
     }
 }
 
