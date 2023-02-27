@@ -87,7 +87,7 @@
     background-color: var(--subtitle-color-dark);
     z-index: 2;
     transition: top 0.01s ease-in;
-    padding: 15px 24px 50px 24px;
+    padding: 0 32px;
     transition: top 0.01s ease-in 0.01s;
     overflow: hidden;
     margin: auto;
@@ -107,7 +107,7 @@
     grid-template: 40px 40px 40px 40px 40px/ auto;
     align-items: center;
     justify-items: center;
-    margin-top: 75px;
+    padding-top: 90px;
     height: auto;
     z-index: 10;
   }
@@ -118,10 +118,11 @@
 
   .header__socialmedia-icons {
     display: flex;
-    flex-direction: row;
+    column-gap: 15px;
     align-items: center;
-    justify-items: center;
-    margin: 20px 0 0;
+    justify-content: center;
+    margin: 23px 0 0;
+    width: 100%;
   }
 
   .header__facebook {
@@ -175,7 +176,6 @@
   .header__youtube:hover {
     filter: saturate(160%) brightness(85%);
   }
-
 
   @media (min-width: 992px) {
     .navigation-burger {
