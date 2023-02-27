@@ -26,7 +26,7 @@
     margin: 12px 8px;
   }
 
-  .navigation-burger:hover{
+  .navigation-burger:hover {
     filter: brightness(56%);
     transition: 0.2s ease-out;
   }
@@ -102,13 +102,13 @@
   }
 
   .header__menu {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    margin: 0; 
-    height: auto; 
+    position: relative;
+    display: grid;
+    grid-template: 40px 40px 40px 40px 40px/ auto;
+    align-items: center;
+    justify-items: center;
+    margin-top: 75px;
+    height: auto;
     z-index: 10;
   }
 
@@ -117,14 +117,65 @@
   }
 
   .header__socialmedia-icons {
-    position: relative;
-    min-width: 172px;
-    max-width: 200px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-    margin: auto;
+    justify-items: center;
+    margin: 20px 0 0;
   }
+
+  .header__facebook {
+    background-image: url('../img/header/header-facebook-icon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__facebook:hover {
+    filter: saturate(160%) brightness(85%);
+  }
+
+  .header__instagram {
+    background-image: url('../img/header/header-instagram-icon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__instagram:hover {
+    filter: saturate(160%) brightness(85%);
+  }
+
+  .header__twitter {
+    background-image: url('../img/header/header-twitter-icon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__twitter:hover {
+    filter: saturate(160%) brightness(85%);
+  }
+
+  .header__youtube {
+    background-image: url('../img/header/header-youtube-icon.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__youtube:hover {
+    filter: saturate(160%) brightness(85%);
+  }
+
 
   @media (min-width: 992px) {
     .navigation-burger {
