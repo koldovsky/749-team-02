@@ -4,19 +4,20 @@
         const prevBtn = document.querySelector('#prev');
 
         let currentSlideInd = 0;
-        let secondSlideInd, thirdSlideInd, fourthSlideInd;
+        let secondSlideInd, thirdSlideInd;
 
         function renderSlide() {
+            let slidesToShow = [slides[currentSlideInd]];
             const slideContainer = document.querySelector(".carousel__slider");
-
             if (window.innerWidth > 768) {
                 secondSlideInd = currentSlideInd + 1 >= slides.length ? 0 : currentSlideInd + 1;
+                slidesToShow.push(slides[secondSlideInd]);
                 if (window.innerWidth > 992) {
                     thirdSlideInd = secondSlideInd + 1 >= slides.length ? 0 : secondSlideInd + 1;
-                    fourthSlideInd = thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
+                    slidesToShow.push(slides[thirdSlideInd]);
                 }
             }
-            slideContainer.replaceChildren(slides[currentSlideInd], slides[secondSlideInd], slides[thirdSlideInd]);
+            slideContainer.replaceChildren(...slidesToShow);
         }
 
         function nextSlide() {
