@@ -16,7 +16,7 @@
                     fourthSlideInd = thirdSlideInd + 1 >= slides.length ? 0 : thirdSlideInd + 1;
                 }
             }
-            slideContainer.replaceChildren(slides[0], slides[secondSlideInd], slides[thirdSlideInd]);
+            slideContainer.replaceChildren(slides[currentSlideInd], slides[secondSlideInd], slides[thirdSlideInd]);
         }
 
         function nextSlide() {
@@ -29,12 +29,11 @@
             renderSlide();
         }
 
-        //setInterval(nextSlide, 3000);
         renderSlide();
 
         nextBtn.addEventListener('click', nextSlide);
         prevBtn.addEventListener('click', prevSlide);
 
-        //window.addEventListener('resize', renderSlide)
+        window.addEventListener('resize', renderSlide)
     }
 )();
