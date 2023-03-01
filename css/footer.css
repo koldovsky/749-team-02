@@ -11,6 +11,7 @@ footer{
     flex-direction:column;
     width:312px;
     background-color:#2e3032;
+    padding:10px;
 }
 .footer__form-span{
     font-family:'Zeyada', cursive;
@@ -29,6 +30,7 @@ footer{
     color:#cdcccd;;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    padding-top:5px;
 
 }
 i{
@@ -43,6 +45,7 @@ input{
     margin:20px;
     padding:15px 26px 15px 26px;
     color:#fff; 
+    display: block;
 }
 .submit__btn{
     width:242px;
@@ -123,4 +126,13 @@ iframe{
     margin-right:auto;
     width: 207px;
     height: auto;
+}
+.status__submit{
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+label{
+    font-family:'Roboto', sans-serif;
+    padding-left: 20px;
 }
