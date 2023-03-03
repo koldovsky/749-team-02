@@ -1,22 +1,31 @@
-.recipes{
+.recipes {
     background: #f2f0ec;
-    padding: 90px 15px 0px 15px;
+    padding: 90px 24px;
     margin: 0px;
 }
+
+.recipes__title {
+    font-weight: 400;
+}
+
 .recipes__divider {
     width: 15%;
     height: 3px;
 }
+
 .recipes__slogan {
     color: var(--subtitle-color-dark);
     font-family: Bebas Neue, cursive;
     font-size: 38px;
     line-height: 41.8px;
     margin: 14px 0px;
+    letter-spacing: 0.76px;
 }
+
 .recipes__divider line {
-    width: 51.35px;
+    width: 15%;
 }
+
 .recipes__text {
     color: rgb(91, 91, 91);
     font-size: 19px;
@@ -24,30 +33,42 @@
     line-height: 28.5px;
     margin: 18px 0px;
 }
+
 .recipes__undertext {
     color: var(--description-color);
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
+}
+
+.recipes__undertext:not(:last-of-type) {
     margin: 30px 0px;
 }
+
+.recipes__undertext:last-of-type {
+    margin-bottom: 30px;
+}
+
 .recipes__coldlatte {
     font-family: 'Bebas Neue', cursive;
     font-size: 28px;
     font-weight: 400;
     text-align: center;
     color: var(--subtitle-color-light);
-    margin: 50px 20px;
 }
+
 .recipes__undercoldlatte {
     font-weight: 400;
     font-size: 17px;
     line-height: 25.5px;
     text-align: center;
     color: var(--light-description-color);
-    margin: 20px 20px;
+    padding-top: 28px;
 }
+
 .recipes__opencoldlatte {
+    display: block;
+    width: 87px;
     font-size: 15px;
     font-weight: 500;
     line-height: 15px;
@@ -55,9 +76,10 @@
     text-decoration: none;
     color: var(--subtitle-color-light);
     background-color: var(--title-color);
-    margin: 100px 100px;
+    margin: 30px auto 0;
     padding: 15px 20px;
 }
+
 .recipes__Cheesedessert {
     font-family: 'Bebas Neue', cursive;
     font-size: 28px;
@@ -65,17 +87,22 @@
     line-height: 33.6px;
     text-align: center;
     color: var(--subtitle-color-light);
-    margin: 50px 20px;
 }
+
 .recipes__underCheesedessert {
     font-weight: 400;
     font-size: 17px;
     line-height: 25.5px;
     text-align: center;
     color: var(--light-description-color);
-    margin: 20px 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
 .recipes__opencheesedessert {
+    display: block;
+    width: 87px;
+    margin: auto;
     font-size: 15px;
     font-weight: 500;
     line-height: 15px;
@@ -83,25 +110,27 @@
     text-decoration: none;
     color: var(--subtitle-color-light);
     background-color: var(--title-color);
-    margin: 100px 100px;
     padding: 15px 20px;
 }
+
 .recipes__latte {
-    background-image: linear-gradient(rgba(34,36,38,0.9), rgba(34,36,38,0.9)),url(/img/recipes/coffeecup.png);
+    background-image: linear-gradient(rgba(34, 36, 38, 0.9), rgba(34, 36, 38, 0.9)), url(/img/recipes/coffeecup.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
-    background-position: 51% 48%;
+    padding: 43px 27px;
 }
+
 .recipes__dessert {
-    background-image: linear-gradient(rgba(34,36,38,0.9), rgba(34,36,38,0.9)),url(/img/recipes/dessert.png);
+    background-image: linear-gradient(rgba(34, 36, 38, 0.9), rgba(34, 36, 38, 0.9)), url(/img/recipes/dessert.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
-    background-position: 51% 48%;
+    padding: 43px 27px;
 }
+
 .recipes__coldlatteanddessert {
     display: flex;
     flex-direction: column;
@@ -109,6 +138,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
 .recipes__bottomimg {
     padding: 15px 0px 0px;
     display: flex;
