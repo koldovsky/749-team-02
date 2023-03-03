@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barista School Website Template Demo</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="shortcut icon" href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barista School Website Template Demo</title>
-  <link rel="shortcut icon"
-    href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized"
-    type="image/x-icon">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script type="text/javascript" src="js/faq.js"></script>
-</head>
-
-<body>
-  <!--Block 'Header' by Valeria Sekret-->
-  <header class="header">
-    <div class="header__container container">
+  <body>
+    <!--Block 'Header' by Valeria Sekret-->
+    <header class="header">
+      <div class="header__container container">
       <nav class="header__nav container">
-        <a href="index.html" class="header__logo-container">
-          <img class="header__logo" src="img/header/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo">
-        </a>
-        <div class="header__menu">
-          <a href="#about" class="header__menu-item">About us</a>
-          <a href="#courses" class="header__menu-item">Courses</a>
-          <a href="#pricing" class="header__menu-item">Pricing</a>
-          <a href="#testimonials" class="header__menu-item">Testimonials</a>
-          <a href="#contacts" class="header__menu-item">Contacts</a>
+        <div class="navigation-logo">
+          <a href="index.html" class="header__logo-container">
+            <img class="header__logo" src="img/header/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo">
+          </a>
+          <div class="navigation-burger"><span></span></div>
         </div>
-        <div class="header__socialmedia-icons">
-          <a href="https://www.facebook.com/" class="header__facebook" target="_blank"></a>
-          <a href="https://www.instagram.com/" class="header__instagram" target="_blank"></a>
-          <a href="https://twitter.com/" class="header__twitter" target="_blank"></a>
-          <a href="https://www.youtube.com/" class="header__youtube" target="_blank"></a>
+        <div class="navigation-wrapper">
+          <div class="header__menu">
+            <a href="#about" class="header__menu-item">About us</a>
+            <a href="#courses" class="header__menu-item">Courses</a>
+            <a href="#pricing" class="header__menu-item">Pricing</a>
+            <a href="#testimonials" class="header__menu-item">Testimonials</a>
+            <a href="#contacts" class="header__menu-item">Contacts</a>
+          </div>
+          <div class="header__socialmedia-icons">
+            <a href="https://www.facebook.com/" class="header__facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="header__instagram" target="_blank"></a>
+            <a href="https://twitter.com/" class="header__twitter" target="_blank"></a>
+            <a href="https://www.youtube.com/" class="header__youtube" target="_blank"></a>
+          </div>
         </div>
       </nav>
       <div class="header__banner">
@@ -166,6 +166,8 @@
           </p>
           <a class="course__link" href="#">Sign Up</a>
         </article>
+          <span class="prev" id="prev_bt">&#10094;</span>
+          <span class="next" id="next_bt">&#10095;</span>
       </div>
     </section>
 
@@ -452,182 +454,188 @@
     </section>
 
     <!--Block 'Pricing' by Anna Mykhaltsova -->
-    <section id="pricing" class="pricing">
-      <div class="pricing__header">
-        <div class="pricing__divider">
-          <img src="img/pricing/background.svg" alt="Divider" />
-        </div>
-        <h2 class="pricing__title">Pricing</h2>
-        <div class="pricing__subtitle">Our Pricing Plans</div>
-        <div class="divider__line"></div>
-        <p class="pricing__description">
-          Learn more about the price and program of each course we offer.
-        </p>
-      </div>
-      <div class="pricing__carousel">
-        <div class="carousel__grid">
-          <article class="carousel__slide">
-            <h3>LATTE ART COURSE</h3>
-            <div>
-              <span class="slide__subtitle"> $150 | 5 days</span>
+        <section id="pricing" class="pricing">
+            <div class="pricing__header">
+                <div class="pricing__divider">
+                    <img src="img/pricing/background.svg" alt="Divider"/>
+                </div>
+                <h2 class="pricing__title">Pricing</h2>
+                <div class="pricing__subtitle">Our Pricing Plans</div>
+                <div class="divider__line"></div>
+                <p class="pricing__description">
+                    Learn more about the price and program of each course we offer.
+                </p>
             </div>
-            <div class="slide__content">
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">For all coffee fans;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Offline lessons only;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">All materials included;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">8 hours of training;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Easy to repeat at home.</span>
+            <div class="pricing__carousel-container">
+                <div class="arrow" id="prev">
+                    <img class="arrow-img" src="img/pricing/arrow-left.png" alt="Previous price"/>
+                </div>
+                <div class="carousel__slider">
+                    <div class="carousel__slide" data-slide="1">
+                        <h3>LATTE ART COURSE</h3>
+                        <div>
+                            <span class="slide__subtitle"> $150 | 5 days</span>
+                        </div>
+                        <div class="slide__content">
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">For all coffee fans;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Offline lessons only;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">All materials included;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">8 hours of training;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Easy to repeat at home.</span>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="slide__link">Select Course</a>
+                    </div>
+                    <div class="carousel__slide" data-slide="2">
+                        <h3>BARISTA LICENSE COURSE</h3>
+                        <div>
+                            <span class="slide__subtitle"> $365 | 23 days</span>
+                        </div>
+                        <div class="slide__content">
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">For beginners;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">50+ hours of training;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Classic drinks;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Internship is included;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">A certificate is issued.</span>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="slide__link">Select Course</a>
+                    </div>
+                    <div class="carousel__slide" data-slide="3">
+                        <h3>ADVANCED BARISTA COURSE</h3>
+                        <div>
+                            <span class="slide__subtitle"> $350 | 14 days</span>
+                        </div>
+                        <div class="slide__content">
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">For professionals;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Online and offline;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Professional equipment;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Coffee roasting details;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Alternative brewing.</span>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="slide__link">Select Course</a>
+                    </div>
+                    <div class="carousel__slide" data-slide="4">
+                        <h3>COFFEE LIKE A PRO AT HOME</h3>
+                        <div>
+                            <span class="slide__subtitle"> $150 | 5 days</span>
+                        </div>
+                        <div class="slide__content">
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">For beginners;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Classic recipes;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Secret tips;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">Making lush milk foam;</span>
+                            </div>
+                            <div class="slide__content-item">
+                      <span>
+                        <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark"/>
+                      </span>
+                                <span class="slide__content-text">10 hours of training.</span>
+                            </div>
+                        </div>
+                        <a href="#contacts" class="slide__link">Select Course</a>
+                    </div>
+                </div>
+              <div class="arrow" id="next">
+                <img class="arrow-img" src="img/pricing/arrow-right.png" alt="Next price"/>
               </div>
             </div>
-            <a href="#contacts" class="slide__link">Select Course</a>
-          </article>
-          <article class="carousel__slide">
-            <h3>BARISTA LICENSE COURSE</h3>
-            <div>
-              <span class="slide__subtitle"> $365 | 23 days</span>
+            <div class="pricing__divider-footer">
+                <img src="img/pricing/divider.svg" alt="Divider"/>
             </div>
-            <div class="slide__content">
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">For beginners;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">50+ hours of training;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Classic drinks;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Internship is included;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">A certificate is issued.</span>
-              </div>
-            </div>
-            <a href="#contacts" class="slide__link">Select Course</a>
-          </article>
-          <article class="carousel__slide">
-            <h3>ADVANCED BARISTA COURSE</h3>
-            <div>
-              <span class="slide__subtitle"> $350 | 14 days</span>
-            </div>
-            <div class="slide__content">
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">For professionals;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Online and offline;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Professional equipment;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Coffee roasting details;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Alternative brewing.</span>
-              </div>
-            </div>
-            <a href="#contacts" class="slide__link">Select Course</a>
-          </article>
-          <article class="carousel__slide">
-            <h3>COFFEE LIKE A PRO AT HOME</h3>
-            <div>
-              <span class="slide__subtitle"> $150 | 5 days</span>
-            </div>
-            <div class="slide__content">
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">For beginners;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Classic recipes;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Secret tips;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">Making lush milk foam;</span>
-              </div>
-              <div class="slide__content-item">
-                <span>
-                  <img class="icon" src="img/pricing/done-icon.svg" alt="Check mark" />
-                </span>
-                <span class="slide__content-text">10 hours of training.</span>
-              </div>
-            </div>
-            <a href="#contacts" class="slide__link">Select Course</a>
-          </article>
-        </div>
-      </div>
-      <div class="pricing__divider-footer">
-        <img src="img/pricing/divider.svg" alt="Divider" />
-      </div>
-    </section>
+        </section>
 
     <!--Block 'Features' by Artem Holikov -->
     <section class="features ">
@@ -948,33 +956,46 @@
     </section>
   </main>
 
-  <!--Block 'Footer' by Veronika Chudyk-->
-  <footer>
-    <img src="img/footer/coffee.svg" alt="coffee">
-    <div class="form__map">
-      <form class="footer__contact-form">
-        <span class="footer__form-span">Write us</span>
-        <span class="footer__contacts" id="contacts">Contacts</span>
-        <i class="fa fa-phone" aria-hidden="true"><span class="footer__number">+1 (234) 567 89 00</span></i>
-        <i class="fa-solid fa-envelope"><a href="mailto:coffeelab@email.com">coffeelab@email.com</a></i>
-        <input type="text" placeholder="enter full name*" />
-        <input type="number" placeholder="enter phone number*" />
-        <input type="email" placeholder="enter your email*" />
-        <input type="text" placeholder="courses*" />
-        <button class="submit__btn" type="submit">Send</button>
-      </form>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7524754883248!2d23.993446615655643!3d49.847108279396735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adde8fb7e7e9d%3A0x30353f6edbc7cda3!2sCoffee%20Lab!5e0!3m2!1sru!2sua!4v1676040207803!5m2!1sru!2sua"
-        width="600" height="450" style="border: 0" allowfullscreen=""
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="footer__wrapper">
-      <div class="footer__item">
-        <div class="footer__item-text">
-          <span class="footer__item-title"><i class="fa-solid fa-clock"></i>opening hours</span>
-          <span class="footer__item-span">Monday-Saturday:11am-9pm </span>
-          <span class="footer__item-span">Sunday:11am-7pm</span>
-        </div>
+    <!--Block 'Footer' by Veronika Chudyk-->
+
+    <footer>
+      
+      <img src="img/footer/coffee.svg" alt="coffee">
+      <div class="form__map">
+        <form class="footer__contact-form" action="https://formspree.io/f/moqzdgvl" method="POST">
+          <span class="footer__form-span">Write us</span>
+          <span class="footer__contacts" id="contacts">Contacts</span>
+          <i class="fa fa-phone" aria-hidden="true"><span class="footer__number">+1 (234) 567 89 00</span></i>
+          <br>
+          <i class="fa-solid fa-envelope"><a href="mailto:coffeelab@email.com">coffeelab@email.com</a></i>
+<<<<<<< HEAD
+          <input type="text" placeholder="enter full name" name="name:"id="name" required />
+=======
+          <input type="text" placeholder="enter full name*" name="name:" id="name" required />
+>>>>>>> 8eb3494dbcdfa9627aa44d47abcaa5fb04bb26cf
+          <label for="name"></label>
+          <input type="text" placeholder="enter phone number" id="phone" name="phone number:" required/>
+          <label for="phone"></label>
+          <input type="email" placeholder="enter your email" name="email:" required />
+          <input type="text" placeholder="courses*" name="courses:" required/>
+          <button class="submit__btn" type="submit">SUBMIT</button>
+          <p class="status__submit"></p>
+        </form>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7524754883248!2d23.993446615655643!3d49.847108279396735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adde8fb7e7e9d%3A0x30353f6edbc7cda3!2sCoffee%20Lab!5e0!3m2!1sru!2sua!4v1676040207803!5m2!1sru!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__item">
+          <div class="footer__item-text">
+                <span class="footer__item-title"><i class="fa-solid fa-clock"></i>opening hours</span>
+                <span class="footer__item-span">Monday-Saturday:11am-9pm </span>
+                <span class="footer__item-span">Sunday:11am-7pm</span>
+            </div>
       </div>
       <div class="footer__item">
         <div class="footer__item-text">
@@ -993,48 +1014,52 @@
         </div>
       </div>
     </div>
+      <div class="navigation__wrapper">
+      <nav class="footer__nav">
+        <a href="index.html" class="footer__logo-container">
+          <div class="img__list-wrapper">
+          <img
+            class="footer__logo"
+            src="img/header/logo-coffee-lab-school.svg"
+            alt="Coffee Lab School Logo"
+          />
+        </a>
+        <div class="footer__menu">
+          <a href="#about" class="footer__menu-item">About us</a>
+          <a href="#courses" class="footer__menu-item">Courses</a>
+          <a href="#pricing" class="footer__menu-item">Pricing</a>
+          <a href="#testimonials" class="footer__menu-item">Testimonials</a>
+          <a href="#contacts" class="footer__menu-item">Contacts</a>
+        </div>
+      
+        <div class="footer__socialmedia-icons">
+          <i class="fa-brands fa-square-facebook"><a href="https://www.facebook.com/" class="header__social-link"  target="_blank"> </a></i>
 
-    <nav class="footer__nav">
-      <a href="index.html" class="footer__logo-container">
-        <img class="footer__logo" src="img/header/logo-coffee-lab-school.svg" alt="Coffee Lab School Logo" />
-      </a>
-      <div class="footer__menu">
-        <a href="#about" class="footer__menu-item">About us</a>
-        <a href="#courses" class="footer__menu-item">Courses</a>
-        <a href="#pricing" class="footer__menu-item">Pricing</a>
-        <a href="#testimonials" class="footer__menu-item">Testimonials</a>
-        <a href="#contacts" class="footer__menu-item">Contacts</a>
+          <i class="fa-brands fa-square-instagram"><a href="https://www.instagram.com/" class="footer__social-link"  target="_blank"></a></i>
+
+          <i class="fa-brands fa-square-youtube"><a href="https://www.youtube.com/" class="footer__social-links"  target="_blank"></a></i>
+
+        </div>
       </div>
-      <div class="footer__socialmedia-icons">
-        <a href="https://www.facebook.com/" class="header__social-link" target="_blank">
-          <svg class="footer__facebook-icon">
-            <use href="img/header/header-fb-icon.svg#header-fb-icon"></use>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
-          <svg class="footer__instagram-icon">
-            <use href="img/header/header-instagram-icon.svg#header-instagram-icon"></use>
-          </svg>
-        </a>
-        <a href="https://twitter.com/" class="footer__social-link" target="_blank">
-          <svg class="footer__twitter-icon">
-            <use href="img/header/header-twitter-icon.svg#header-twitter-icon"></use>
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/" class="footer__social-links" target="_blank">
-          <svg class="footer__youtube-icon">
-            <use href="img/header/header-youtube-icon.svg#header-youtube-icon"></use>
-          </svg>
-        </a>
-      </div>
-    </nav>
-    <hr />
-    <div class="footer__creator">
-      <p>© Created by</p>
-      <p>All rights Reserved</p>
+      </nav>
     </div>
-  </footer>
-  <script src="js/testimonials.js"></script>
-</body>
 
+
+      <hr />
+      <div class="footer__creator">
+        <p>© Created by</p>
+        <p>All rights Reserved</p>
+      </div>
+      <script src="footer.js"></script>
+    </footer>
+<<<<<<< HEAD
+ 
+=======
+  <script src="js/header-nav.js"></script>
+>>>>>>> 8eb3494dbcdfa9627aa44d47abcaa5fb04bb26cf
+  <script src="js/courses-slider.js"></script>
+  <script src="js/testimonials.js"></script>
+  <script type="text/javascript" src="js/faq.js"></script>
+  <script src="js/pricing.js"></script>
+  </body>
 </html>

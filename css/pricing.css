@@ -1,13 +1,13 @@
 .pricing {
-      background: #27292b;
-      display: block;
-      font-family: Roboto, sans-serif;
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 25.5px;
-      overflow-wrap: break-word;
-      position: relative;
-      vertical-align: baseline;
+    background: #27292b;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    overflow-wrap: break-word;
+    position: relative;
+    vertical-align: baseline;
 }
 
 .pricing__divider {
@@ -21,7 +21,7 @@
 }
 
 .pricing__title {
-    color:var(--title-color);
+    color: var(--title-color);
     font-family: Satisfy, cursive;
     font-size: 26px;
     font-style: normal;
@@ -64,32 +64,36 @@
     padding: 15px 0 45px 0;
 }
 
-.pricing__carousel{
-    display: flex;
-    justify-content: space-between;
-
+.pricing__carousel-container {
+    display: contents;
+    justify-content: center;
     flex-direction: row;
     position: relative;
-    width: 100%;
-     padding: 0 15px 0 15px;
-
+    max-width: 1200px;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    cursor: pointer;
+    min-height: 100vh;
+    margin: 10px;
+    place-items: center;
 }
 
-
-.carousel__grid {
-    display: grid;
-    grid-template-columns: repeat( 4, 1fr);
-    grid-template-rows: 490px;
-    padding: 29px 27px 29px 0;
-    grid-column-gap: 20px;
-    justify-items: center;
+.carousel__slider {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel__slide {
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.04);
-    width: 272px;
-    padding: 30px 20px 0 20px;
+    width: 350px;
+    padding: 30px 20px 20px 20px;
+    margin-right: 30px;
 }
 
 .carousel__slide h3 {
@@ -106,7 +110,7 @@
 }
 
 .slide__subtitle {
-    color:rgb(199, 161, 122);
+    color: rgb(199, 161, 122);
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -119,6 +123,7 @@
     position: relative;
     padding: 5px 0 5px 0;
 }
+
 .slide__content {
     margin: 30px 0 0 0;
 }
@@ -155,7 +160,7 @@
 
 .slide__link {
     display: block;
-    background-color: var( --title-color);
+    background-color: var(--title-color);
     width: 149.2px;
     color: var(--subtitle-color-light);
     cursor: pointer;
@@ -180,7 +185,31 @@
 
 
 .pricing__divider-footer {
-  background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
-  background-position: center bottom;
-  padding-bottom: 150px;
+    background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
+    background-position: center bottom;
+    padding-bottom: 150px;
+}
+
+
+.arrow {
+    display: block;
+    position: absolute;
+    top: 55%;
+}
+
+
+.arrow#prev {
+    left: unset;
+    right: 90%;
+}
+
+.arrow#next {
+    right: unset;
+    left: 88%;
+}
+
+.arrow-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
