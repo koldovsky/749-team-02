@@ -1,6 +1,6 @@
 .recipes {
     background: #f2f0ec;
-    padding: 90px 24px;
+    padding: 90px 24px 120px;
     margin: 0px;
 }
 
@@ -114,32 +114,77 @@
 }
 
 .recipes__latte {
-    background-image: linear-gradient(rgba(34, 36, 38, 0.9), rgba(34, 36, 38, 0.9)), url(/img/recipes/coffeecup.png);
+    background-image: linear-gradient(rgba(34, 36, 38, 0.8), rgba(34, 36, 38, 0.8)), url(/img/recipes/coffeecup.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
     padding: 43px 27px;
+    background-position: 49% 49%;
 }
 
 .recipes__dessert {
-    background-image: linear-gradient(rgba(34, 36, 38, 0.9), rgba(34, 36, 38, 0.9)), url(/img/recipes/dessert.png);
+    background-image: linear-gradient(rgba(34, 36, 38, 0.8), rgba(34, 36, 38, 0.8)), url(/img/recipes/dessert.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
     padding: 43px 27px;
+    background-position: 51% 90%;
 }
 
 .recipes__coldlatteanddessert {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .recipes__bottomimg {
     padding: 15px 0px 0px;
     display: flex;
+}
+
+@media(min-width: 768px) {
+    .recipes__coldlatteanddessert {
+        flex-direction: row;
+        column-gap: 30px;
+    }
+
+    .recipes {
+        padding: 90px 32px 120px;
+    }
+
+    .recipes__slogan {
+        font-size: 48px;
+        line-height: 52.8px;
+    }
+
+    .recipes__dessert,
+    .recipes__latte {
+        padding: 52px 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    .recipes__banner {
+        display: flex;
+        column-gap: 30px;
+        justify-content: space-between;
+    }
+    
+    .recipes__dessert,
+    .recipes__latte {
+       height: fit-content;
+       padding: 70px 30px;
+    }
+
+    .recipes {
+        padding: 90px 40px 120px;
+    }
+
+    .recipes__slogan {
+        font-size: 58px;
+        line-height: 63.8px;
+    }
 }
