@@ -168,9 +168,9 @@
 
 @media (min-width: 992px) {
     .recipes__banner {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
         column-gap: 30px;
-        justify-content: space-between;
     }
     
     .recipes__dessert,
@@ -186,5 +186,17 @@
     .recipes__slogan {
         font-size: 58px;
         line-height: 63.8px;
+        letter-spacing: 1.16px;
+    }
+
+    .recipes__coldlatte,
+    .recipes__Cheesedessert {
+        font-size: 34px;
+        letter-spacing: 0.68px;
+        line-height: 40.8px;
+    }
+
+    .recipes__title {
+        font-size: 24px;
     }
 }
