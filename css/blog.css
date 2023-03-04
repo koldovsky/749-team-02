@@ -68,7 +68,16 @@
         justify-content: space-between;
         padding-bottom: 10px;
     }
-
+    .blog_img_block {
+        max-width: 600px;
+    }
+    .blog_block_paragraphs {
+        max-width: 601px;
+    }
+    .blog_list {
+        max-width: 700px;
+        text-align: left;
+    }
     .blog_list_li {
         display: flex;
         flex-direction: row;
