@@ -117,7 +117,7 @@
     color: var(--description-color);
     opacity: .85;
     transition: opacity .2s ease-out;
-    transform: translate(-400%, 250px);
+    transform: translate(-450%, 250px);
 }
 .prev:hover,
 .prev:focus,
