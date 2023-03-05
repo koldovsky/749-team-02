@@ -107,7 +107,7 @@
     color: var(--description-color);
     opacity: .85;
     transition: opacity .2s ease-out;
-    transform: translate(0%, 250px);
+    transform: translate(400%, -380px);
     padding-left: 15px;
 }
 .prev{
@@ -117,13 +117,34 @@
     color: var(--description-color);
     opacity: .85;
     transition: opacity .2s ease-out;
-    transform: translate(0%, 250px);
+    transform: translate(-400%, 250px);
 }
 .prev:hover,
 .prev:focus,
 .next:hover,
 .prev:focus{
     color:#000000;
+}
+@media (min-width: 438px) {
+    .next {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        color: var(--description-color);
+        opacity: .85;
+        transition: opacity .2s ease-out;
+        transform: translate(0%, 250px);
+        padding-left: 15px;
+    }
+    .prev {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        color: var(--description-color);
+        opacity: .85;
+        transition: opacity .2s ease-out;
+        transform: translate(0%, 250px);
+    }
 }
 
 @media (min-width: 767px) {
