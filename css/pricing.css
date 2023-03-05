@@ -7,7 +7,6 @@
     line-height: 25.5px;
     overflow-wrap: break-word;
     position: relative;
-    vertical-align: baseline;
 }
 
 .pricing__divider {
@@ -26,10 +25,7 @@
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: normal;
     line-height: 26px;
-    text-align: center;
-    vertical-align: baseline;
     padding: 90px 0 20px 0;
 }
 
@@ -37,11 +33,9 @@
     color: var(--subtitle-color-light);
     font-family: "Bebas Neue", cursive;
     font-size: 38px;
-    font-style: normal;
     font-weight: 400;
     letter-spacing: 0.76px;
     line-height: 41.8px;
-    text-align: center;
     padding: 5px 0 20px 0;
 }
 
@@ -55,12 +49,10 @@
     color: rgb(230, 230, 230);
     font-family: Roboto, sans-serif;
     font-size: 19px;
-    font-style: normal;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 28.5px;
-    text-align: center;
-    vertical-align: baseline;
+    overflow-wrap: break-word;
     padding: 15px 0 45px 0;
 }
 
@@ -104,8 +96,8 @@
     font-weight: 400;
     letter-spacing: 0.48px;
     line-height: 29.52px;
+    overflow-wrap: break-word;
     text-align: left;
-    vertical-align: baseline;
     margin-bottom: 20px;
 }
 
@@ -113,12 +105,10 @@
     color: rgb(199, 161, 122);
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 22.5px;
     text-align: left;
-    vertical-align: baseline;
     margin: 20px 0 20px 0;
     position: relative;
     padding: 5px 0 5px 0;
@@ -151,7 +141,7 @@
     font-weight: 400;
     letter-spacing: normal;
     line-height: 25.5px;
-    list-style-type: none;
+    overflow-wrap: break-word;
     text-align: left;
     margin-left: 10px;
     position: relative;
@@ -165,14 +155,11 @@
     color: var(--subtitle-color-light);
     cursor: pointer;
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
     letter-spacing: 0.3px;
     line-height: 15px;
     height: 45px;
     text-align: center;
-    text-decoration: none;
-    vertical-align: baseline;
     margin-top: 35px;
     margin-bottom: 10px;
     padding: 15px 0 15px 0;
@@ -183,33 +170,134 @@
     color: var(--subtitle-color-dark);
 }
 
-
 .pricing__divider-footer {
     background: url("../img/pricing/divider.svg") 50.31% 100% / cover no-repeat, #fff;
     background-position: center bottom;
     padding-bottom: 150px;
 }
 
-
 .arrow {
     display: block;
     position: absolute;
-    top: 55%;
+    top: 59%;
 }
-
 
 .arrow#prev {
     left: unset;
-    right: 90%;
+    right: 96%;
 }
 
 .arrow#next {
     right: unset;
-    left: 88%;
+    left: 87%;
 }
 
 .arrow-img {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .pricing__title {
+        font-size: 28px;
+    }
+
+    .pricing__subtitle {
+        font-size: 48px;
+    }
+
+    .pricing__description {
+        font-size: 20px;
+    }
+
+    .carousel__slide {
+        width: 370px;
+        padding: 32px 22px 22px 22px;
+    }
+
+    .carousel__slide h3 {
+        font-size: 26px;
+    }
+
+    .slide__subtitle {
+        font-size: 20px;
+    }
+
+    .slide__link {
+        font-size: 16px;
+        height: 46px;
+    }
+
+    .arrow {
+        top: 55%;
+    }
+
+    .arrow#prev {
+        right: 91%;
+    }
+
+    .arrow#next {
+        left: 88%;
+    }
+
+    .arrow-img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pricing__title {
+        font-size: 30px;
+    }
+
+    .pricing__subtitle {
+        font-size: 58px;
+        padding: 12px 0 20px 0;
+    }
+
+    .pricing__description {
+        font-size: 22px;
+        padding: 20px 0 50px 0;
+    }
+
+    .carousel__slide {
+        width: 390px;
+        padding: 35px 25px 25px 25px;
+    }
+
+    .carousel__slide h3 {
+        font-size: 28px;
+    }
+
+    .slide__subtitle {
+        font-size: 22px;
+    }
+
+    .slide__content-text {
+        font-size: 18px;
+    }
+
+    .slide__link {
+        font-size: 17px;
+        height: 47px;
+    }
+
+    .arrow {
+        top: 54%;
+    }
+
+    .arrow#prev {
+        right: 93%;
+    }
+
+    .arrow#next {
+        left: 91%;
+    }
+
+    .arrow-img {
+        width: 48px;
+        height: 48px;
+    }
 }

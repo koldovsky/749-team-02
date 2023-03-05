@@ -17,7 +17,7 @@
     letter-spacing: 0.96px;
 }
 .courses-liner{
-    background-color: #c7a17a;
+    background-color: var(--title-color);
     height: 3px;
     width: 13.59px;
     margin: 15px auto;
@@ -36,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* align-items: center; */
 }
 .courses__item{
     display: none;
@@ -59,14 +60,20 @@
     font-size: 17px;
     color: rgb(159, 159, 159);
 }
+.course__item-string{
+    color: #5b5b5b;
+    margin-left: 10px;
+}
 .course__list-circs{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 .course__item-circ{
     margin-bottom: 16px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
 }
 .course__item-text{
     font-size: 17px;
@@ -87,11 +94,58 @@
     cursor: pointer;
     margin-top: 35px;
     margin-bottom: 10px;
+    transition: all 250ms ease-in 0s;
 }
 .course__link:hover {
     background-color: var(--subtitle-color-dark);
 }
 
+.next {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    color: var(--description-color);
+    opacity: .85;
+    transition: opacity .2s ease-out;
+    transform: translate(400%, -380px);
+    padding-left: 15px;
+}
+.prev{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    color: var(--description-color);
+    opacity: .85;
+    transition: opacity .2s ease-out;
+    transform: translate(-450%, 250px);
+}
+.prev:hover,
+.prev:focus,
+.next:hover,
+.prev:focus{
+    color:#000000;
+}
+@media (min-width: 438px) {
+    .next {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        color: var(--description-color);
+        opacity: .85;
+        transition: opacity .2s ease-out;
+        transform: translate(0%, 250px);
+        padding-left: 15px;
+    }
+    .prev {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        color: var(--description-color);
+        opacity: .85;
+        transition: opacity .2s ease-out;
+        transform: translate(0%, 250px);
+    }
+}
 
 @media (min-width: 767px) {
     .courses__block {
@@ -104,6 +158,6 @@
         font-size: 58px;
     }
     .courses__item {
-        max-width: 295px;
+        max-width: 350px;
     }
 }
