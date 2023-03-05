@@ -53,6 +53,6 @@ showSlides(getNumSlides());
 document.querySelector("#next_bt").onclick = function() { changeSlides(1); }
 document.querySelector("#prev_bt").onclick = function() { changeSlides(-1); }
 window.addEventListener("resize", function() { showSlides(getNumSlides()); });
-const myMediaQuery = window.matchMedia("(min-width: 500px)");
+const myMediaQuery = window.matchMedia("(min-width: 320px)");
 myMediaQuery.addEventListener("change",widthChangeCallback);
 widthChangeCallback(myMediaQuery);
