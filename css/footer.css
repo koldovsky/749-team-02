@@ -46,8 +46,6 @@ footer{
 }
 i{
     color:#c7a166;
-    
-    
 }
 input{
     background-color: rgba(255, 255, 255, 0.01);
@@ -61,6 +59,9 @@ input{
     --w-get-input-color: #fff;
  
 }
+
+
+
 .submit__btn{
     width:220px;
     height:50px;
