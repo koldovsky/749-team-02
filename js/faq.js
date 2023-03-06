@@ -2,14 +2,14 @@ if (window.addEventListener) {
     window.addEventListener('load', initAccordion, false)
 }
 function initAccordion() {
-    let accordTitleElements = document.getElementsByClassName('faq__block-right-accord-title')
+    let accordTitleElements = document.getElementsByClassName('faq__accord-header')
     Array.prototype.forEach.call(accordTitleElements, function(el) {
         el.addEventListener('click', handleAccordTitleClick, false)
     });
 }
 function handleAccordTitleClick() {
-    let accordElementToChange = this.parentNode.parentNode
-    let accords = this.parentNode.parentNode.parentNode.getElementsByClassName('faq__block-right-accord')
+    let accordElementToChange = this.parentNode
+    let accords = this.parentNode.parentNode.getElementsByClassName('faq__block-right-accord')
 
     if (accordElementToChange.classList.contains('faq__collapsed')) {
         Array.prototype.forEach.call(accords, function(accord) {
