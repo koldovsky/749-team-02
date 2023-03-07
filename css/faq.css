@@ -1,8 +1,8 @@
 .faq {
     padding: 24px;
-    /*padding-right: 24px;*/
     background-color: #f2f0ec;
     position: relative;
+    font-family: Roboto, sans-serif;
 }
 
 .faq__header {
@@ -22,10 +22,13 @@
     font-size: 58px;
     font-weight: 400;
     letter-spacing: 1.16px;
-    line-height: 63.8px
+    line-height: 63.8px;
 }
 .faq__block-section-container {
     position: static;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .faq__block-container {
     position: relative;
@@ -58,7 +61,13 @@
     left: 0;
 }
 .faq__block-text {
+    color: rgb(225,224,224);
     margin: 20px 0;
+    line-height: 25px;
+}
+.faq__block-text-strong {
+    font-size: 19px;
+    font-weight: 500;
 }
 .faq__block-button {
     margin: 50px 0;
@@ -67,7 +76,8 @@
     width: 115px;
     height: 25px;
     background: #e8ba7e;
-    padding: 10px;
+    padding: 14px 20px;
+    font-size: 15px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -92,30 +102,33 @@
     color: black;
 }
 .faq__line {
-    max-width: 10%;
+    max-width: 13%;
     margin: 15px 0;
 }
-
+.faq__block-right-accord {
+    padding: 20px 0;
+}
+.faq__block-right-accord-text {
+    font-family: Roboto, sans-serif;
+    color: rgb(225,224,224);
+    line-height: 25.5px;
+}
 .faq__block-right-accord.faq__collapsed .faq__block-right-accord-text {
     max-height: 0;
     transition: max-height 0.15s ease-out;
     overflow: hidden;
-    margin-top: 10px;
 }
 
 .faq__block-right-accord.faq__expanded .faq__block-right-accord-text {
     max-height: 500px;
     transition: max-height 0.25s ease-in;
+    margin-top: 20px;
 }
 .faq__accord-line {
     max-width: 100%;
     background: grey;
-    margin: 25px auto;
-    height: 1%;
+    height: 1px;
     opacity: 30%;
-}
-.faq__block-right-accord-title {
-    cursor: pointer;
 }
 .faq__accord-container, .faq__header {
     flex-basis: 100%;
@@ -129,42 +142,33 @@
 .faq__block {
     display: flex;
 }
-@media (min-width: 768px) {
-    .faq__block-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .faq__block-left {
-        margin-right: 100px;
-    }
-    .faq__block-right {
-        margin-left: 100px;
-    }
-     .faq__block {
-        flex-basis: 25%;
-        max-width: 25%;
-    }
+.faq__accord-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
-@media (max-width: 767px) {
-    .faq__block {
-    }
+.faq__block-right-accord-title {
+    width: 0;
+    max-width: calc(100% - 15px - 20px);
+    flex: 1;
+    vertical-align: baseline;
+    word-wrap: break-word;
 }
-
+.faq__accord-icon-plus {
+    vertical-align: baseline;
+    position: relative;
+    height: 15px;
+    max-width: 15px;
+    flex-basis: 15px;
+    opacity: .8;
+    margin-left: 20px;
+}
 .faq__accord-icon-plus:after {
     width: 100%;
     height: 2px;
 }
 .faq__expanded .faq__accord-icon-plus:before {
     height: 0;
-}
-.faq__accord-icon-plus {
-    position: relative;
-    height: 15px;
-    max-width: 15px;
-    -webkit-flex-basis: 15px;
-    flex-basis: 15px;
-    opacity: .8;
 }
 .faq__accord-icon-plus:before {
     width: 2px;
@@ -183,8 +187,46 @@
     background: white;
 }
 .faq__accord-header {
-   display: flex;
+    display: flex;
+}
+.faq__block-right-accord-title{
+    font-family: "Bebas Neue", cursive;
+    font-size: 28px;
 }
 .faq__block-right-accord-title, .faq__block-right-accord-text {
     flex-basis: 100%;
+}
+@media (min-width: 768px) {
+    .faq__block-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .faq__block-left {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .faq__block-center {
+        flex-basis: 16.66667%;
+        max-width: 16.66667%;
+    }
+    .faq__block-right {
+        flex-basis: 33.33333%;
+        max-width: 33.33333%;
+    }
+    .faq__block {
+        padding: 0 15px;
+        width: 0;
+    }
+}
+@media (max-width: 767px) {
+    .faq__subtitle {
+        font-size: 38px;
+    }
+    .faq__block-right-accord-title {
+        font-size: 24px;
+    }
+    .faq__block-center {
+        display: none;
+    }
 }
