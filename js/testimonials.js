@@ -20,13 +20,13 @@
                     }
                     lastActive = i;
                 }
+                sliders[i].classList.remove("animate__animated", "animate__slideInLeft", "animate__slideInRight");
             }
             if (e.target.dataset.direction === "right") {
                 if (sliders.length === lastActive + 1) {
                     return;
                 }
-                sliders[firstActive].classList.remove("active", "animate__animated", "animate__slideInLeft");
-                sliders[lastActive].classList.remove("animate__animated", "animate__slideInLeft");
+                sliders[firstActive].classList.remove("active");
                 if (window.innerWidth > 768) {
                     sliders[lastActive].classList.add("animate__animated", "animate__slideInRight");
                 }
@@ -35,8 +35,7 @@
                 if (firstActive === 0) {
                     return;
                 }
-                sliders[lastActive].classList.remove("active", "animate__animated", "animate__slideInRight");
-                sliders[firstActive].classList.remove("animate__animated", "animate__slideInRight");
+                sliders[lastActive].classList.remove("active");
                 if (window.innerWidth > 768) {
                     sliders[firstActive].classList.add("active", "animate__animated", "animate__slideInLeft");
                 }
