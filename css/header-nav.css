@@ -1,7 +1,6 @@
 @media (max-width: 991px) {
   body.lock {
     overflow: hidden;
-    height: auto;
   }
 
   .navigation-logo {
