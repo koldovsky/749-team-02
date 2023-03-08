@@ -198,7 +198,6 @@ filter: saturate(160%) brightness(85%);
 @media (min-width: 773px){
     .form__map{
         display: flex;
-        flex-direction:row;
         justify-content: space-around;
     }
     .footer__contact-form{
