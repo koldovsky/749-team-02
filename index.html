@@ -10,7 +10,7 @@
   <link rel="shortcut icon"
     href="https://res2.weblium.site/res/6172b76b979f220022d6edd5/617a88e1efb89700248eccef_optimized"
     type="image/x-icon">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index.css">   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -345,7 +345,7 @@
     <!--Block 'About' by Artem Zinchenko-->
     <section id="about" class="about">
       <img src="img/about&video/about-divider.svg" alt="Divider" class="about__divider-photo" />
-      <div class="about__mainblock">
+      <div class="about__mainblock container">
         <div class="about__photo">
           <img src="img/about&video/two-man-drink-coffee.png" alt="Two man with coffee" />
         </div>
@@ -374,6 +374,11 @@
           </p>
           <a href="#pricing" class="about_learn-button button">Learn More</a>
         </div>
+      </div>
+      <div class="about-carousel">
+        <button class="about-carousel__prev">🢀</button>
+        <div class="about-carousel__slides"></div>
+        <button class="about-carousel__next">🢂</button>
       </div>
     </section>
 
@@ -1223,6 +1228,8 @@
     <script src="footer.js"></script>
   </footer>
 
+  <script src="js/about-carousel.js"></script>
+  <script src="js/about-change-title.js"></script>
   <script src="js/header-nav.js"></script>
   <script src="js/header.js"></script>
   <script src="js/courses-slider.js"></script>
@@ -1232,7 +1239,7 @@
   <script src="js/recipes.js"></script>
   <script src="js/pricing.js"></script>
   <script src="js/change_subtitle_blog.js"></script>
-
+ 
 </body>
 
 </html>
