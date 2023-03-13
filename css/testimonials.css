@@ -55,7 +55,7 @@
     border: 2px solid rgb(224 221 220 / 40%);
 }
 
-.active {
+.testimonials__active {
     display: block;
 }
 
