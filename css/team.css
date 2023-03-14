@@ -1,24 +1,49 @@
+.team__title{
+    font-size: 26px;
+    font-family: "Satisfy";
+}
+
+
+.team__list{
+    font-size: 19px;
+   font-family: "Roboto Medium";
+   color:#5b5b5b;
+  }
+  
+  h2::after{
+    content: '';
+    height: 3px;
+    width: 5%;
+    background-color: #c7a17a;
+    display: block;
+  }
+
+.large-image{
+    height:282.875px  ;
+    width: 435.2px;
+}
+
 .team__subtitle{
+    font-size: 38px;
     font-family: "Bebas Neue";
     color:#27292b;
 }
 
-.team__list{
-font-family: "Roboto Medium";
-color:#5b5b5b;
-}
 
 .team_positions{
-font-family: "Roboto";
-color:rgb(91,91,91);
+ font-size: 14px;
+ font-family: "Roboto";
+ color:rgb(91,91,91);
 }
 
 .team_name{
+    font-size: 28px;
     font-family: "Bebas Neue";
     color: #c7a17a;
 }
 
 .team_characteristic{
+    font-size: 17px;
     font-family: "Roboto";
     color: #828282;
 }
